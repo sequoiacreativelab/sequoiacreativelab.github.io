@@ -1,0 +1,25 @@
+{
+  "name": "sequoia-creative-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "browser-sync": "^2.16.0",
+    "gulp": "^3.8.8",
+    "gulp-autoprefixer": "1.0.0",
+    "gulp-sass": "^2.1.0",
+    "gulp-uglify": "^2.0.0",
+    "imagemin": "^5.2.2",
+    "pngquant": "^1.1.1",
+    "pump": "^1.0.1"
+  },
+  "devDependencies": {
+    "gulp-imagemin": "^3.1.0",
+    "imagemin-pngquant": "^5.0.0"
+  }
+}
