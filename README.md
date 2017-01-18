@@ -1,16 +1,16 @@
 # Sequoia Creative Lab
-Welcome to the website of the Sequoia Creative Lab
+Welcome to the website of the Sequoia Creative Lab!
 
 ## Dev environment setup
 You can skip this setup if you already have Xcode, Homebrew, rbenv (or a separate Ruby), and Node installed on your machine.
 
 ### Install Xcode Command Line Tools
-The [Xcode Command Line Tools](http://railsapps.github.io/xcode-command-line-tools.html) allow you to do command line development
+The [Xcode Command Line Tools](http://railsapps.github.io/xcode-command-line-tools.html) allow you to work with the terminal.
 
 ```$ xcode-select --install```
 
 ### Install Homebrew
-[Homebrew](http://brew.sh/) is a package manager for macOS that will help us install a few things 
+[Homebrew](http://brew.sh/) is a package manager for macOS that easily installs our [Ruby](https://www.ruby-lang.org/en/) version management tool and [Node](nodejs.org). 
 
 ```$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"```
 
