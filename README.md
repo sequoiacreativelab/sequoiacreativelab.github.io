@@ -6,6 +6,7 @@ You can skip this setup if you already have Xcode, Homebrew, rbenv (or a separat
 
 ### Install Xcode Command Line Tools
 The [Xcode Command Line Tools](http://railsapps.github.io/xcode-command-line-tools.html) allow you to do command line development
+
 ```$ xcode-select --install```
 
 ### Install Homebrew
@@ -38,7 +39,7 @@ This will tell your machine to use the Ruby we just installed in every directory
 ### Check that Ruby changed
 ```$ which ruby```
 
-You should see `/Users/YOURNAME/.rbenv/shims/ruby`. If you get `/usr/bin/ruby`, try troubleshooting [with these instructions](http://stackoverflow.com/a/12150580).
+You should see `/Users/YOURNAME/.rbenv/shims/ruby`. If you get `/usr/bin/ruby`, try troubleshooting with [these instructions](http://stackoverflow.com/a/12150580).
 
 ### Install bundler
 Install bundler, a gem manager for Ruby. Installing bundler will let you use Jekyll, the static site generator that the SCL site runs on. 
