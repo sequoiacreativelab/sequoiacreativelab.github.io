@@ -81,6 +81,7 @@ Install all of the packages that the SCL site specified for its gulp tasks.
 
 ### Run Jekyll
 Run the Jekyll, starting the local server. 
+
 ```$ bundle exec jekyll serve```
 
 ### Run gulp
