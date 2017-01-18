@@ -77,6 +77,7 @@ Clone the Github repo to your machine locally. If you get an SSH error, try foll
 
 ### Install dev dependencies
 Install all of the packages that the SCL site specified for its gulp tasks.
+
 ```$ npm install```
 
 ### Run Jekyll
