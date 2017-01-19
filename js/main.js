@@ -1,0 +1,1 @@
+!function(){if(window.addEventListener&&document.querySelector){var e=document.documentElement;e.classList.remove("no-js"),e.classList.add("js")}}();

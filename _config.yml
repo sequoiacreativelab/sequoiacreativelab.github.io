@@ -23,12 +23,38 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
+collections:
+  alumni:
+    title: alumni
+    output: true
+    permalink: "/:title/"
+  visitors:
+    title: visitors
+    output: true
+    permalink: "/:title/"
+defaults:
+- scope:
+    path: ''
+    type: alumni
+  values:
+    layout: default
+- scope:
+    path: ''
+    type: visitors
+  values:
+    layout: default
 
 # Build settings
 markdown: kramdown
 theme: minima
+permalink: pretty
 gems:
   - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
+  - node_modules
+  - package.json
+  - npm-debug.log
+  - gulpfile.js
+  - sass

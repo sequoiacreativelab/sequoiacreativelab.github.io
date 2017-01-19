@@ -1,0 +1,84 @@
+{% include head.html %}
+
+<body>
+
+  <!-- Intro -->
+
+  <div>
+    <img src="{{ page.intro.logo }}">
+    <h1>{{ page.intro.headline }}</h1>
+    <p>{{ page.intro.copy }}</p>
+    <p><a href="{{ page.intro.link }}">{{ page.intro.handle }}</a></p>
+  </div>
+
+  <!-- Current fellows -->
+
+  <div>
+    {% for fellow in page.fellows %}
+    <div>
+      <img src="{{fellow.image}}">
+      <p>{{fellow.name}}</p>
+      <p>{{fellow.label}}</p>
+    </div>
+    <div>
+      <h3>Design fellow '17</h3>
+      <h2>{{fellow.headline}}</h2>
+      <p>{{fellow.copy}}</p>
+    </div>
+    {% endfor %}
+  </div>
+
+  <!-- Work -->
+
+  <div>
+    <h2>{{ page.work.headline }}</h2>
+    <div>
+      {% for service in page.work.services %}
+        <h3>{{service.name}}</h3>
+        <p>{{service.companies}}</p>
+      {% endfor %}
+    </div>
+    <p>{{page.work.copy}}</p>
+  </div>
+
+<!-- Alumni -->
+
+  <div>
+    <div>
+      <h3>{{page.alumni.headline}}</h3>
+    </div>
+    <div>
+      {% assign items = site.alumni | sort: 'date' | reverse %}
+      {% for item in site.alumni %}
+        <div>
+          <!-- <img src="{{item.image}}"> -->
+          <p>{{item.title}} </p>
+          <p>{{item.class}}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- Visiting designers -->
+
+  <div>
+    <div>
+      <h3>Visiting designers</h3>
+      <p>Donec ullamcorper nulla non metus auctor fringilla. Maecenas faucibus mollis interdum. Nulla vitae elit libero, a pharetra augue. Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+    </div>
+    <div>
+      {% for designer in page.visitors.designers %}
+        <a href="{{designer.link}}">{{designer.name}}</a>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- Apply -->
+
+  <div>
+    <h3>{{page.apply.headline}}</h3>
+    <p>{{page.apply.copy}}</p>
+    <a href="{{page.apply.button.link}}">{{page.apply.button.text}}</a>
+  </div>
+
+</body>
