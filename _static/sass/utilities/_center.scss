@@ -1,0 +1,11 @@
+.center {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width:$screen-sm) {
+  .center-sm {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
