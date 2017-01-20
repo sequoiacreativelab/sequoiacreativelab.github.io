@@ -4,56 +4,81 @@
 
   <!-- Intro -->
 
-  <div>
-    <img src="{{ page.intro.logo }}">
-    <h1>{{ page.intro.headline }}</h1>
-    <p>{{ page.intro.copy }}</p>
-    <p><a href="{{ page.intro.link }}">{{ page.intro.handle }}</a></p>
+  <div class="mw9 ph6 pv6 flex justify-between">
+    <div>
+      <img class="logo pv4" src="{{ page.intro.logo }}">
+      <h1>{{ page.intro.headline }}</h1>
+      <p class="measure">{{ page.intro.copy }}</p>
+      <p><a href="{{ page.intro.link }}">{{ page.intro.handle }}</a></p>
+    </div>
+    <div>
+      <img src="http://placehold.it/470x640">
+    </div>
   </div>
 
   <!-- Current fellows -->
 
-  <div>
-    {% for fellow in page.fellows %}
-    <div>
-      <img src="{{fellow.image}}">
-      <p>{{fellow.name}}</p>
-      <p>{{fellow.label}}</p>
+  <div class="mw9 ph6 pv4">
+    {% for fellow in page.fellows limit:1 %}
+    <div class="flex justify-between items-center">
+      <div>
+        <img src="{{fellow.image}}">
+        <p>{{fellow.name}}</p>
+        <p>{{fellow.label}}</p>
+      </div>
+      <div class="measure">
+        <h3>Design fellow '17</h3>
+        <h2>{{fellow.headline}}</h2>
+        <p>{{fellow.copy}}</p>
+      </div>
     </div>
-    <div>
-      <h3>Design fellow '17</h3>
-      <h2>{{fellow.headline}}</h2>
-      <p>{{fellow.copy}}</p>
+    {% endfor %}
+
+    {% for fellow in page.fellows limit:1 offset: 1%}
+    <div class="flex justify-between items-center">
+      <div class="measure">
+        <h3>Design fellow '17</h3>
+        <h2>{{fellow.headline}}</h2>
+        <p>{{fellow.copy}}</p>
+      </div>
+      <div>
+        <img src="{{fellow.image}}">
+        <p>{{fellow.name}}</p>
+        <p>{{fellow.label}}</p>
+      </div>
     </div>
     {% endfor %}
   </div>
 
   <!-- Work -->
 
-  <div>
+  <div class="mw9 ph6 pv4">
     <h2>{{ page.work.headline }}</h2>
-    <div>
-      {% for service in page.work.services %}
-        <h3>{{service.name}}</h3>
-        <p>{{service.companies}}</p>
-      {% endfor %}
+    <div class="flex justify-between">
+      <div>
+        {% for service in page.work.services %}
+          <h3>{{service.name}}</h3>
+          <p>{{service.companies}}</p>
+        {% endfor %}
+      </div>
+      <p class="measure">{{page.work.copy}}</p>
     </div>
-    <p>{{page.work.copy}}</p>
   </div>
 
 <!-- Alumni -->
 
-  <div>
+  <div class="mw9 ph6 pv4">
     <div>
       <h3>{{page.alumni.headline}}</h3>
     </div>
-    <div>
+    <div class="flex justify-between">
       {% assign items = site.alumni | sort: 'date' | reverse %}
       {% for item in site.alumni %}
         <div>
-          <!-- <img src="{{item.image}}"> -->
+          <img src="{{item.image}}">
           <p>{{item.title}} </p>
-          <p>{{item.class}}</p>
+          <p>{{item.position}}</p>
+          <p>{{item.company}}</p>
         </div>
       {% endfor %}
     </div>
@@ -61,22 +86,22 @@
 
   <!-- Visiting designers -->
 
-  <div>
-    <div>
+  <div class="mw9 ph6 pv4 flex justify-between">
+    <div class="measure">
       <h3>{{page.visitors.label}}</h3>
       <h2>{{page.visitors.headline}}</h2>
-      <p>{{page.visitors.copy}}</p>
+      <p>{{page.visitors.copy }}</p>
     </div>
     <div>
       {% for designer in page.visitors.designers %}
-        <a href="{{designer.link}}">{{designer.name}}</a>
+        <a href="{{designer.link}}" class="db">{{designer.name}}</a>
       {% endfor %}
     </div>
   </div>
 
   <!-- Apply -->
 
-  <div>
+  <div class="mw9 ph6">
     <h3>{{page.apply.headline}}</h3>
     <p>{{page.apply.copy}}</p>
     <a href="{{page.apply.button.link}}">{{page.apply.button.text}}</a>

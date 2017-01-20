@@ -1,9 +1,11 @@
 ---
 title: Jessie Ren
-image: /assets/jessie.jpg
+image: http://placehold.it/255x316
 class: SCL '15
 date: 2015-01-4
 layout: profile
+position: Product Designer
+company: Evernote
 ---
 
 Etiam porta sem malesuada magna mollis euismod. Etiam porta sem malesuada magna mollis euismod. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum.
