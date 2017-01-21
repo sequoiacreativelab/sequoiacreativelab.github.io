@@ -12,13 +12,13 @@ fellows:
   label: Sequoia Creative Lab
   image: http://placehold.it/360x425
   headline: From industrial design to tech
-  copy: I am fascinated by cultures and compelling design solutions through research strategies. My design experience expands from industrial design to brand & user experience. When I’m not designing, I enjoy creating side projects with different mediums (photography, writing, painting).
+  copy: Sue developed her passion in art and design at Rhode Island School of Design, where she studied industrial design. She enjoys learning about cultures and apply compelling design solutions through experience. She joined Sequoia Creative Lab to broaden her experience in design. She enjoys collaborating with creatives to produce total design experience. On her free time, she dabbles in photography and appreciates Danish furniture.
   twitter: https://twitter.com/suemeetsoo
 - name: Jules Forrest
   label: Sequoia Creative Lab
   image: http://placehold.it/360x425
   headline: For the love of type
-  copy: I am fascinated by cultures and compelling design solutions through research strategies. My design experience expands from industrial design to brand & user experience. When I’m not designing, I enjoy creating side projects with different mediums (photography, writing, painting).
+  copy: Jules is a San Francisco-based product designer and front-end developer who first became interested in design and typography by working on her college newspaper in upstate New York. She joined the Sequoia Creative Lab to explore the industries within the Sequoia portfolio and collaborate with the portfolio's design teams. At work, she likes building design systems that prioritize consistency over pixel-perfection. Offscreen, she’s usually hiking, listening to music that other people tell her is incredibly depressing, or nerding out about type.
   twitter: https://twitter.com/julesforrest
 work:
   hero: http://placehold.it/1440x500
