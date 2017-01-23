@@ -12,7 +12,7 @@ fellows:
   label: Sequoia Creative Lab
   image: http://placehold.it/360x425
   headline: From industrial design to tech
-  copy: Sue developed her passion in art and design at Rhode Island School of Design, where she studied industrial design. She enjoys learning about cultures and apply compelling design solutions through experience. She joined Sequoia Creative Lab to broaden her experience in design. She enjoys collaborating with creatives to produce total design experience. On her free time, she dabbles in photography and appreciates Danish furniture.
+  copy: Sue developed her passion in art and design at Rhode Island School of Design, where she studied industrial design. She enjoys learning about cultures and apply compelling design solutions through experience. She joined Sequoia Creative Lab to broaden her experience in design. She enjoys collaborating with creatives to produce total design experience. On her free time, she dabbles in photography and appreciates Danish furniture. ABCDEFG
   twitter: https://twitter.com/suemeetsoo
 - name: Jules Forrest
   label: Sequoia Creative Lab
