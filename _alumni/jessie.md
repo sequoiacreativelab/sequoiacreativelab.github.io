@@ -1,6 +1,6 @@
 ---
 title: Jessie Ren
-image: http://placehold.it/255x316
+image: assets/jessie.jpg
 class: SCL '15
 date: 2015-01-4
 layout: profile

@@ -5,31 +5,33 @@
 
   <!-- Intro -->
 
-  <div class="mw9 center ph6 pv4 flex justify-between items-end">
+  <div class="mw9 center ph3 ph6-m pv2 flex flex-column flex-row-m justify-between items-end-m">
     <div class="measure">
-      <img class="logo pv4" src="{{ page.intro.logo }}">
-      <h1 class="f1 franziska lh-title pv5">{{ page.intro.headline }}</h1>
-      <p class="measure lh-copy">{{ page.intro.copy }}</p>
+      <img class="logo pv3" src="{{ page.intro.logo }}">
+      <h1 class="f2 f1-m franziska lh-title pv4">{{ page.intro.headline }}</h1>
+      {% for item in page.intro.copy %}
+        <p class="measure lh-copy pb3">{{ item }}</p>
+      {% endfor %}
       <p class="pt4 pb6">— <a href="{{ page.intro.link }}" class="pb6 s-green">{{ page.intro.handle }}</a></p>
     </div>
-    <div>
-      <img src="http://placehold.it/470x640">
+    <div class="w-40-m dib bg-grit">
+      <img src="/assets/coleen-story.jpg" class="w-100 pt5 nb5 nl5">
     </div>
   </div>
 
   <!-- Current fellows -->
 
-  <div class="mw9 center ph6 pv6">
+  <div class="mw9 center ph3 ph6-m pv6">
     {% for fellow in page.fellows limit:1 %}
-    <div class="flex justify-between items-center pb6">
-      <div>
-        <img src="{{fellow.image}}">
+    <div class="flex justify-between flex-column-reverse flex-row-m items-center-m pb6">
+      <div class="w-40">
+        <img src="{{fellow.image}}" class="w-100">
         <p class="pt4 f4 pb3">{{fellow.name}}</p>
         <p class="f6 black-60">{{fellow.label}}</p>
       </div>
-      <div class="measure-wide">
+      <div class="measure-wide pvt5">
         <h3 class="ttu s-green fw6 tracked f6">Design fellow '17</h3>
-        <h2 class="franziska f2 pv4">{{fellow.headline}}</h2>
+        <h2 class="franziska f2 lh-title pv4-m">{{fellow.headline}}</h2>
         <p class="measure-wide lh-copy pb4">{{fellow.copy}}</p>
         <span class="s-green">
           <a href="{{fellow.twitter}}"><svg fill="currentColor" class='icon mr2'><use xlink:href="#twitter" /></a>
@@ -41,10 +43,10 @@
     {% endfor %}
 
     {% for fellow in page.fellows limit:1 offset: 1%}
-    <div class="flex justify-between items-center">
+    <div class="flex justify-between flex-column flex-row-m items-center-m">
       <div class="measure-wide">
         <h3 class="ttu s-green fw6 tracked f6">Design fellow '17</h3>
-        <h2 class="franziska f2 pv4">{{fellow.headline}}</h2>
+        <h2 class="franziska f2 lh-title pv4-m">{{fellow.headline}}</h2>
         <p class="measure-wide lh-copy pb4">{{fellow.copy}}</p>
         <span class="s-green">
           <a href="{{fellow.twitter}}"><svg fill="currentColor" class='icon mr2'><use xlink:href="#twitter" /></a>
@@ -52,8 +54,8 @@
           <a href="{{fellow.twitter}}"><svg fill="currentColor" class='icon mr2'><use xlink:href="#github" /></a>
         </span>
       </div>
-      <div>
-        <img src="{{fellow.image}}">
+      <div class="w-40">
+        <img src="{{fellow.image}}" class="w-100">
         <p class="pt4 f4 pb3">{{fellow.name}}</p>
         <p class="f6 black-60">{{fellow.label}}</p>
       </div>
@@ -65,15 +67,15 @@
 
   <img src="{{page.work.hero}}" class="pt4 pb6 w-100">
 
-  <div class="mw9 center ph6 pv4">
-    <h2 class="f2 lh-deck franziska measure pr6">{{ page.work.headline }}</h2>
-    <div class="flex justify-between pv5">
+  <div class="mw9 center ph3 ph6-m pv4">
+    <h2 class="f3 f2-m lh-deck franziska measure w-80-m">{{ page.work.headline }}</h2>
+    <div class="flex justify-between flex-column flex-row-m pv5">
       <div class="pt3">
         {% for service in page.work.services %}
-          <div class="pb5 flex items-start">
+          <div class="pb4 flex items-start">
             <img src="/assets/line.svg" class="pt3">
-            <div class="pl5">
-              <h3 class="f3">{{service.name}}</h3>
+            <div class="pl3">
+              <h3 class="f3 lh-deck">{{service.name}}</h3>
               <p class="pv3 black-60">{{service.companies}}</p>
             </div>
           </div>
@@ -85,14 +87,16 @@
 
 <!-- Alumni -->
 
-  <div class="mw9 center ph6 pv6">
+  <div class="mw9 center ph3 ph6-m pv6">
     <div>
-      <h3 class="f2 tc franziska measure center lh-deck ph4">{{page.alumni.headline}}</h3>
+      <h3 class="f3 f2-m w-70-m tc franziska center lh-deck">{{page.alumni.headline}}</h3>
     </div>
-    <div class="flex justify-between pt6">
+    <div class="pt6 flex flex-wrap nh4-m nh3-sm nh2">
       {% for item in site.alumni limit: 1 %}
-        <div class="pt5">
-          <img src="{{item.image}}">
+        <div class="pt5 w-50 ph4-m ph3-sm ph2 w-25-m">
+          <div class="bg-grit dib ml3 mb3">
+            <img src="{{item.image}}" class="w-100 mt3 mr3 nb3 nl3">
+          </div>
           <p class="pt4 f4 pb3">{{item.title}} </p>
           <p class="pb2 f6 black-60">{{item.position}}</p>
           <p class="f6 black-60 pb4">{{item.company}}</p>
@@ -104,8 +108,10 @@
         </div>
       {% endfor %}
       {% for item in site.alumni limit: 1 offset: 1 %}
-        <div class="pt6">
-          <img src="{{item.image}}" class="pt4">
+        <div class="pt6 w-50 ph4-m ph3-sm ph2 w-25-m">
+          <div class="bg-grit dib mr3 mt3 nl3">
+            <img src="{{item.image}}" class="nt3 nr3 mb3 ml3 w-100">
+          </div>
           <p class="pt4 f4 pb3">{{item.title}} </p>
           <p class="pb2 f6 black-60">{{item.position}}</p>
           <p class="f6 black-60 pb4">{{item.company}}</p>
@@ -117,8 +123,10 @@
         </div>
       {% endfor %}
       {% for item in site.alumni limit: 1 offset: 2 %}
-        <div>
-          <img src="{{item.image}}">
+        <div class="w-50 ph4-m ph3-sm ph2 w-25-m">
+          <div class="bg-grit dib mr3 nt3 nl3">
+            <img src="{{item.image}}" class="w-100 mt3 nr3 nb3 ml3">
+          </div>
           <p class="pt4 f4 pb3">{{item.title}} </p>
           <p class="pb2 f6 black-60">{{item.position}}</p>
           <p class="f6 black-60 pb4">{{item.company}}</p>
@@ -130,8 +138,10 @@
         </div>
       {% endfor %}
       {% for item in site.alumni limit: 1 offset: 3 %}
-        <div class="pt4">
-          <img src="{{item.image}}" class="pt5">
+        <div class="pt4 w-50 ph4-m ph3-sm ph2 w-25-m">
+          <div class="bg-grit dib nr3 mt5 ml3">
+            <img src="{{item.image}}" class="nt3 mr3 mb3 nl3 w-100">
+          </div>
           <p class="pt4 f4 pb3">{{item.title}} </p>
           <p class="pb2 f6 black-60">{{item.position}}</p>
           <p class="f6 black-60 pb4">{{item.company}}</p>
@@ -147,7 +157,7 @@
 
   <!-- Visiting designers -->
 
-  <div class="mw9 center ph6 pv4 flex justify-between items-center">
+  <div class="mw9 center ph3 ph6-m pv4 flex justify-between flex-column flex-row-m items-center-m">
     <div class="measure-wide">
       <h3 class="fw6 tracked ttu s-green f6">{{page.visitors.label}}</h3>
       <h2 class="f2 franziska lh-deck pv4">{{page.visitors.headline}}</h2>
@@ -155,7 +165,7 @@
     </div>
     <div class="">
       {% for designer in page.visitors.designers %}
-        <a href="{{designer.link}}" class="db f1 franziska lh-deck">{{designer.name}}</a>
+        <a href="{{designer.link}}" class="db f2 f1-m franziska lh-deck">{{designer.name}}</a>
       {% endfor %}
     </div>
   </div>
@@ -165,7 +175,7 @@
   <div class="mw9 center ph6 pv6">
     <h3 class="f2 tc franziska">{{page.apply.headline}}</h3>
     <p class="measure-extra-wide pv4 tc lh-copy center">{{page.apply.copy}}</p>
-    <a href="{{page.apply.button.link}}" class="btn center tc mv5">{{page.apply.button.text}}</a>
+    <p class="center tc"><a href="{{page.apply.button.link}}" class="btn dib mv5">{{page.apply.button.text}}</a></p>
   </div>
 
 </body>

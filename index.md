@@ -4,24 +4,27 @@ title: Welcome
 intro:
   logo: /assets/logo.svg
   headline: Welcome to the Sequoia Creative Lab
-  copy: Maecenas sed diam eget risus varius blandit sit amet non magna. Etiam porta sem malesuada magna mollis euismod. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Nullam id dolor id nibh ultricies vehicula ut id elit. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet fermentum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Sed posuere consectetur est at lobortis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+  copy:
+  - Influenced by storied studios of the past—from the Bauhaus and the Eames Studio to Total Design and Xerox Parc—the Sequoia Creative Lab employs a full-process approach to design problems. Leonardo da Vinci haunts our workshop with whispers of encouragement or provocation as we attempt to blend art and science. Jeanne d’Arc gives us conviction to follow our vision, even when others offer hostility or indifference. Nature offers us clues to the architecture of the sublime. We read many sources. We learn from many fields.
+  - We design for the Sequoia partnership and portfolio. Our projects center on total experience—not just the pixels in your app—so when we storyboard, we draw what’s happening in the world, not just what’s happening in your product. For more, read Human Experience Design.
+  - Along the way, we transform high-potential designers into tomorrow’s design leaders through the hands-on mentoring and active collaboration of our Design Fellows program.
   handle: "@buckhouse"
   link: http://twitter.com/buckhouse
 fellows:
 - name: Sue Kim
   label: Sequoia Creative Lab
-  image: http://placehold.it/360x425
+  image: /assets/sue.jpg
   headline: From industrial design to tech
   copy: Sue developed her passion in art and design at Rhode Island School of Design, where she studied industrial design. She enjoys learning about cultures and apply compelling design solutions through experience. She joined Sequoia Creative Lab to broaden her experience in design. She enjoys collaborating with creatives to produce total design experience. On her free time, she dabbles in photography and appreciates Danish furniture. ABCDEFG
   twitter: https://twitter.com/suemeetsoo
 - name: Jules Forrest
   label: Sequoia Creative Lab
-  image: http://placehold.it/360x425
+  image: /assets/jules.jpg
   headline: For the love of type
-  copy: Jules is a San Francisco-based product designer and front-end developer who first became interested in design and typography by working on her college newspaper in upstate New York. She joined the Sequoia Creative Lab to explore the industries within the Sequoia portfolio and collaborate with the portfolio's design teams. At work, she likes building design systems that prioritize consistency over pixel-perfection. Offscreen, she’s usually hiking, listening to music that other people tell her is incredibly depressing, or nerding out about type.
+  copy: Jules is a product designer and front-end developer who first became interested in design and typography by working on her college newspaper in upstate New York. She joined the Sequoia Creative Lab to explore the industries within the Sequoia portfolio and collaborate with the portfolio's design teams. At work, she builds design systems that prioritize consistency over pixel-perfection. Offscreen, she’s usually hiking, listening to music that other people tell her is incredibly depressing, or nerding out about type.
   twitter: https://twitter.com/julesforrest
 work:
-  hero: http://placehold.it/1440x500
+  hero: /assets/work.jpg
   headline: This is a sentence about the concept of full process design and how these are some examples of the kinds of things we work on
   services:
   - name: New user experience
