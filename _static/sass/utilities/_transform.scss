@@ -1,0 +1,11 @@
+.trans-tr3 {transform: translate($spacing-medium, - $spacing-medium); }
+.trans-tl3 {transform: translate(- $spacing-medium, - $spacing-medium); }
+.trans-bl3 {transform: translate(- $spacing-medium, $spacing-medium); }
+.trans-br3 {transform: translate($spacing-medium, $spacing-medium); }
+.trans-l3  {transform: translateX(- $spacing-medium);    }
+
+
+.trans-tr5 {transform: translate($spacing-extra-large, - $spacing-extra-large); }
+.trans-tl5 {transform: translate(- $spacing-extra-large, - $spacing-extra-large); }
+.trans-bl5 {transform: translate(- $spacing-extra-large, $spacing-extra-large); }
+.trans-br5 {transform: translate($spacing-extra-large, $spacing-extra-large); }

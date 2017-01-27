@@ -1,3 +1,15 @@
 .bg-grit {
   background-image: url("/assets/grit.jpg");
 }
+
+.bg-grit img {
+  mix-blend-mode: multiply;
+}
+
+.bg-s-green {
+  background-color: $s-green;
+}
+
+.multiply {
+  mix-blend-mode: multiply;
+}

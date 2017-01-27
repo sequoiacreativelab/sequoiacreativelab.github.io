@@ -10,19 +10,6 @@ intro:
   - Along the way, we transform high-potential designers into tomorrow’s design leaders through the hands-on mentoring and active collaboration of our Design Fellows program.
   handle: "@buckhouse"
   link: http://twitter.com/buckhouse
-fellows:
-- name: Sue Kim
-  label: Sequoia Creative Lab
-  image: /assets/sue.jpg
-  headline: From industrial design to tech
-  copy: Sue developed her passion in art and design at Rhode Island School of Design, where she studied industrial design. She enjoys learning about cultures and apply compelling design solutions through experience. She joined Sequoia Creative Lab to broaden her experience in design. She enjoys collaborating with creatives to produce total design experience. On her free time, she dabbles in photography and appreciates Danish furniture. ABCDEFG
-  twitter: https://twitter.com/suemeetsoo
-- name: Jules Forrest
-  label: Sequoia Creative Lab
-  image: /assets/jules.jpg
-  headline: For the love of type
-  copy: Jules is a product designer and front-end developer who first became interested in design and typography by working on her college newspaper in upstate New York. She joined the Sequoia Creative Lab to explore the industries within the Sequoia portfolio and collaborate with the portfolio's design teams. At work, she builds design systems that prioritize consistency over pixel-perfection. Offscreen, she’s usually hiking, listening to music that other people tell her is incredibly depressing, or nerding out about type.
-  twitter: https://twitter.com/julesforrest
 work:
   hero: /assets/work.jpg
   headline: This is a sentence about the concept of full process design and how these are some examples of the kinds of things we work on
@@ -34,6 +21,21 @@ work:
   - name: Design testing framework
     companies: Company, company, company
   copy: Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras mattis consectetur purus sit amet fermentum. Donec ullamcorper nulla non metus auctor fringilla. Donec sed odio dui. Maecenas faucibus mollis interdum. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Donec id elit non mi porta gravida at eget metus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Cras mattis consectetur purus sit amet fermentum. Curabitur blandit tempus porttitor.
+current:
+  headline: Curabitur blandit tempus porttitor. Aenean lacinia bibendum nulla sed consectetur.
+  fellows:
+  - name: Sue Kim
+    label: Sequoia Creative Lab
+    image: /assets/sue.jpg
+    headline: From industrial design to tech
+    copy: Sue developed her passion in art and design at Rhode Island School of Design, where she studied industrial design. She enjoys learning about cultures and apply compelling design solutions through experience. She joined Sequoia Creative Lab to broaden her experience in design. She enjoys collaborating with creatives to produce total design experience. On her free time, she dabbles in photography and appreciates Danish furniture. ABCDEFG
+    twitter: https://twitter.com/suemeetsoo
+  - name: Jules Forrest
+    label: Sequoia Creative Lab
+    image: /assets/jules.jpg
+    headline: For the love of type
+    copy: Jules is a product designer and front-end developer who first became interested in design and typography by working on her college newspaper in upstate New York. She joined the Sequoia Creative Lab to explore the industries within the Sequoia portfolio and collaborate with the portfolio's design teams. At work, she builds design systems that prioritize consistency over pixel-perfection. Offscreen, she’s usually hiking, listening to music that other people tell her is incredibly depressing, or nerding out about type.
+    twitter: https://twitter.com/julesforrest
 alumni:
   headline: After the fellowship, SCL alumni go on to work at Silicon Valley’s top companies
 visitors:
