@@ -1,0 +1,68 @@
+.grid {
+  margin-left: -$spacing-small;
+  margin-right: -$spacing-small;
+
+  @media (min-width: $screen-md) {
+    margin-left: -$spacing-medium;
+    margin-right: -$spacing-medium;
+  }
+}
+
+
+
+// for two column grids
+
+
+.grid--50-sm {
+  @media (min-width: $screen-sm) {
+    .grid__col:nth-child(3n+1) {
+      clear: left;
+    }
+  }
+}
+
+
+// for three column grids
+
+.grid--third-sm {
+  @media (min-width: $screen-sm) {
+    .grid__col:nth-child(3n+1) {
+      clear: left;
+    }
+  }
+}
+
+
+.grid--third-m {
+  @media (min-width: $screen-md) {
+    .grid__col:nth-child(3n+1) {
+      clear: left;
+    }
+  }
+}
+
+
+// for four column grids
+
+.grid--25-lg {
+  @media (min-width: $screen-lg) {
+    .grid__col:nth-child(4n+1) {
+      clear: left;
+    }
+    .grid__col:nth-child(3n+1) {
+      clear: none;
+    }
+  }
+}
+
+
+.grid--20-m {
+  @media (min-width: $screen-md) {
+    .grid__col:nth-child(3n+1) {
+      clear: none;
+    }
+  }
+}
+
+.grid__col {
+}

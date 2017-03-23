@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="267px" viewBox="0 0 1440 267" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 41.2 (35397) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD-Copy-8" transform="translate(0.000000, -1557.000000)">
+            <g id="Group-4" transform="translate(-3.000000, 1571.000000)">
+                <path d="M0.5,246.5 L1445.99403,246.5" id="Line" stroke="#FFFFFF" stroke-linecap="square"></path>
+                <text id="User-research" font-family="Akkurat-Mono" font-size="16" font-weight="normal" line-spacing="16" fill="#FFFFFF">
+                    <tspan x="118" y="14">User research</tspan>
+                </text>
+                <path d="M181.5,70.8305304 L181.5,243.925055" id="Line" stroke="#FFFFFF" stroke-linecap="square" fill="#D8D8D8"></path>
+                <circle id="Oval" stroke="#4E4E4E" fill="#FFFFFF" cx="182.5" cy="246.5" r="4.5"></circle>
+                <text id="Story-map" font-family="Akkurat-Mono" font-size="16" font-weight="normal" line-spacing="16" fill="#FFFFFF">
+                    <tspan x="327" y="140">Story map</tspan>
+                </text>
+                <path d="M371,246.290157 L371,183" id="Line" stroke="#FFFFFF" stroke-linecap="square"></path>
+                <circle id="Oval" stroke="#4E4E4E" fill="#FFFFFF" cx="371.5" cy="246.5" r="4.5"></circle>
+                <text id="Wireframes" font-family="Akkurat-Mono" font-size="16" font-weight="normal" line-spacing="20" fill="#FFFFFF">
+                    <tspan x="496.4" y="12">Wireframes</tspan>
+                </text>
+                <path d="M544,246.075232 L544,78" id="Line-Copy-2" stroke="#FFFFFF" stroke-linecap="square" fill="#D8D8D8"></path>
+                <circle id="Oval" stroke="#4E4E4E" fill="#FFFFFF" cx="544.5" cy="246.5" r="4.5"></circle>
+                <text id="Interface-design" font-family="Akkurat-Mono" font-size="16" font-weight="normal" line-spacing="20" fill="#FFFFFF">
+                    <tspan x="680.36" y="128">Interface </tspan>
+                    <tspan x="695.24" y="148">design</tspan>
+                </text>
+                <path d="M725,246.290157 L725,183" id="Line-Copy-6" stroke="#FFFFFF" stroke-linecap="square"></path>
+                <circle id="Oval" stroke="#4E4E4E" fill="#FFFFFF" cx="725.5" cy="246.5" r="4.5"></circle>
+                <text id="Prototypes" font-family="Akkurat-Mono" font-size="16" font-weight="normal" line-spacing="20" fill="#FFFFFF">
+                    <tspan x="855.4" y="12">Prototypes</tspan>
+                </text>
+                <path d="M904,246.360715 L904,76" id="Line-Copy-4" stroke="#FFFFFF" stroke-linecap="square" fill="#D8D8D8"></path>
+                <circle id="Oval" stroke="#4E4E4E" fill="#FFFFFF" cx="904.5" cy="246.5" r="4.5"></circle>
+                <text id="Usability-tests" font-family="Akkurat-Mono" font-size="16" font-weight="normal" line-spacing="20" fill="#FFFFFF">
+                    <tspan x="1024.36" y="127">Usability</tspan>
+                    <tspan x="1044.2" y="147">tests</tspan>
+                </text>
+                <path d="M1068,247.441085 L1068,185" id="Line-Copy-5" stroke="#FFFFFF" stroke-linecap="square"></path>
+                <circle id="Oval" stroke="#4E4E4E" fill="#FFFFFF" cx="1068.5" cy="246.5" r="4.5"></circle>
+                <text id="Iteration" font-family="Akkurat-Mono" font-size="16" font-weight="normal" line-spacing="20" fill="#FFFFFF">
+                    <tspan x="1183.36" y="13">Iteration</tspan>
+                </text>
+                <path d="M1228,247.360715 L1228,77" id="Line-Copy-7" stroke="#FFFFFF" stroke-linecap="square" fill="#D8D8D8"></path>
+                <circle id="Oval" stroke="#4E4E4E" fill="#FFFFFF" cx="1229.5" cy="247.5" r="4.5"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

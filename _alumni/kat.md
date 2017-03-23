@@ -1,8 +1,9 @@
 ---
 title: Kat Fukui
-image: assets/kat.jpg
-class: SCL '15
-date: 2015-01-4
+first_name: Kat
+last_name: Fukui
+class: Design fellow
+date: 2016-01-4
 position: Product Designer
 company: Github
 ---

@@ -45,18 +45,59 @@ visitors:
   designers:
   - name: Alice Lee
     link: Tktktk
+    role: Visiting designer
+    current_position: Illustrator
+    current_company: Independent
   - name: Ash Huang
     link: Tktktk
+    role: Visiting designer
+    current_position: Experience designer
+    current_company: Adobe
   - name: Coleen Baik
     link: Tktktk
+    role: Visiting designer
+    current_position: Design advisor
+    current_company: Independent
   - name: Andreas Weiland
     link: Tktktk
+    role: Visiting designer
+    current_position: Designer
+    current_company: Vivino
   - name: Samantha Warren
     link: Tktktk
+    role: Visiting designer
+    current_position: Product designer
+    current_company: Adobe
   - name: Jessica Phan
     link: Tktktk
+    role: Visiting designer
+    current_position: Product designer
+    current_company: Zugata
   - name: Jon Gold
     link: Tktktk
+    role: Visiting designer
+    current_position: Design engineer
+    current_company: Airbnb
+  - name: Jessie Ren
+    link: Tktktk
+    role: Design fellow
+    current_position: Product designer
+    current_company: Evernote
+  - name: Kat Fukui
+    link: Tktktk
+    role: Design fellow
+    current_position: Product designer
+    current_company: Github
+  - name: Alexandra Bond
+    link: Tktktk
+    role: Design fellow
+    current_position: Senior product designer
+    current_company: Airbnb
+  - name: Jen Wibowo
+    link: Tktktk
+    role: Design fellow
+    current_position: Product designer
+    current_company: Pocket
 apply:
   headline: Here's a line about joining us
   copy: Thrillingly bold, tenacious, intelligent and chic, each designer in the Visiting Designer program serves as an expert on a particular topic. She or he brings a unique perspective to design shoulder to shoulder with the team on short-term, fast-paced sprints. Meet a few of the visiting designers.

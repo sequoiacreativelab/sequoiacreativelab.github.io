@@ -6,10 +6,24 @@ html {}
 
 body {
   font-family: 'synthese';
-  font-weight: 400;
+  font-weight: 300;
   -webkit-font-smoothing: antialiased;
+  color: $s-gray;
 }
 
 .logo {
-  width: 66px;
+  width: 50px;
+}
+
+.logo-small {
+  width: 25px;
+}
+
+.portco-logo {
+  max-height: 25px;
+  max-width: 180px;
+}
+
+.portco-logo-extra {
+  max-height: 35px;
 }
