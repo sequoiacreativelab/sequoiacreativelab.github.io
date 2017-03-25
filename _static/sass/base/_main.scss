@@ -20,10 +20,20 @@ body {
 }
 
 .portco-logo {
-  max-height: 25px;
-  max-width: 185px;
+
+  max-height: 20px;
+  max-width: 140px;
+
+  @media (min-width: $screen-md) {
+    max-height: 25px;
+    max-width: 185px;
+  }
 }
 
 .portco-logo-extra {
-  max-height: 38px;
+  max-height: 30px;
+
+  @media (min-width: $screen-md) {
+    max-height: 38px;
+  }
 }

@@ -9,15 +9,15 @@ intro:
   location: Menlo Park, CA
   details:
   - label: Who
-    copy: James Buckhouse, Sue Kim, & Jules Forrest
+    copy: "[James Buckhouse](http://buckhouse.co), [Sue Kim](http://suekiming.com), & [Jules Forrest](http://freshpepper.co)"
   - label: What
     copy: Design seamless product experiences
   - label: Where
-    copy: At Sequoia Capital portfolio companies
+    copy: At [Sequoia Capital](https://sequoiacap.com) portfolio companies
   - label: When
     copy: During pivotal company moments
   - label: Why
-    copy: To help the daring build design legendary companies products.
+    copy: To help the daring ~~build~~ design legendary ~~companies~~ products.
 process:
   label: Here's how
   headline: The Sequoia Creative Lab employs a full-process approach to solving user's problems
@@ -38,6 +38,7 @@ current:
     goal: Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.
     cta: Get in touch
     twitter: https://twitter.com/suemeetsoo
+    column_padding: pr5-m
   - name: Jules Forrest
     position: Design fellow '17
     intro: Cras justo odio, dapibus ac facilisis in, egestas eget quam. Etiam porta sem malesuada magna mollis euismod. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.
@@ -45,6 +46,7 @@ current:
     goal: Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.
     cta: Get in touch
     twitter: https://twitter.com/suemeetsoo
+    column_padding: pl5-m pt5 pt0-m
 portfolio:
   label:
   headline:
