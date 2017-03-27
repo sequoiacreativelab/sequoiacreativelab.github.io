@@ -2,13 +2,18 @@
   background-image: url("/assets/grit.jpg");
 }
 
-.bg-grit img {
-  mix-blend-mode: multiply;
-}
-
-.bg-s-green {
+.bg-green {
   background-color: $s-green;
 }
+
+.bg-grit-green {
+  background-image: url("/assets/grit-green.jpg");
+}
+
+.bg-grit-gray {
+  background-image: url("/assets/grit-gray.jpg");
+}
+
 
 .multiply {
   mix-blend-mode: multiply;

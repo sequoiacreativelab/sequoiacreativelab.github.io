@@ -1,203 +1,173 @@
 {% include head.html %}
 
-<body class="pv6">
+<body>
   {% include icons.html %}
 
   <!-- Intro -->
 
-  <div class="mw9 center ph3 ph6-m pv2 flex flex-column flex-row-m justify-between items-end-m">
-    <div class="measure">
-      <img class="logo pv3" src="{{ page.intro.logo }}">
-      <h1 class="f2 f1-m franziska lh-title pv4">{{ page.intro.headline }}</h1>
-      {% for item in page.intro.copy %}
-        <p class="measure lh-copy pb3">{{ item }}</p>
-      {% endfor %}
-      <p class="pt4 pb6">— <a href="{{ page.intro.link }}" class="pb6 s-green">{{ page.intro.handle }}</a></p>
+  <div class="flex flex-column flex-row-m w-100 vh-100-m">
+    <div id="intro" class="flex flex-column justify-center items-center bg-grit-green center white tc f6 vh-100 w-100">
+      <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100" data-aos-duration="900">
+        <img src="{{page.intro.logo}}" class="logo pb4-m pb3">
+        <p class="ttu tracked fw5 pv4 f5">{{page.intro.label}}</p>
+        <img src="{{page.intro.scl_image}}" class="w-70-sm w-80 db center tc pv4">
+        <h3 class="ttu tracked ba b--white ph4 pv3 dib f5-m f6 akkurat mv3 db">{{page.intro.date}}</h2>
+        <h3 class="pt4-m pt3 f6">{{page.intro.location}}</h3>
+      </div>
     </div>
-    <div class="w-40-m dib bg-grit trans-tr5 relative">
-      <img src="/assets/coleen-story.jpg" class="w-100 trans-bl5">
-      <img src="/assets/logo_2.png" class="absolute multiply w-60 pr5" style="bottom:0; right: 0;">
+    <div class="vh-100-m w-100 flex flex-column justify-center items-center">
+      <div class="pa4-m pv5 pv6-sm ph4 measure center">
+        {% for detail in page.intro.details %}
+          {% if forloop.last == true %}
+            <div data-aos="fade-left" data-aos-anchor-placement="top-center" data-aos-anchor="#intro" data-aos-delay="{{detail.delay}}">
+              <h3 class="s-green ttu tracked fw5 f6 pv2">{{detail.label}}</h3>
+              <div class="akkurat lh-copy f5">{{detail.copy | markdownify }}</div>
+            </div>
+          {% else %}
+            <div data-aos="fade-left" data-aos-anchor-placement="top-center" data-aos-anchor="#intro" data-aos-delay="{{detail.delay}}">
+              <h3 class="s-green ttu tracked fw5 f6 pv2">{{detail.label}}</h3>
+              <div class="akkurat lh-copy pb4-m pb3 f5 link">{{detail.copy | markdownify }}</div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
     </div>
   </div>
 
-  <!-- Work -->
+  <!-- How -->
+  <div class="w-100 bg-grit-gray white pv6-sm pv5">
+    <div class="w-80-l w-90 center ph3 ph4-sm ph6-m center pv2-m" data-aos="fade-up" data-aos-anchor-placement="top-center">
+      <p class="ttu tracked fw5 f6 tc pv2">{{page.process.label}}</p>
+      <h2 class="noe f2-m f3 lh-deck tc fw6 pv5-m pv4-sm pv3">{{page.process.headline}}</h2>
+    </div>
+    <img data-aos="fade-up" data-aos-anchor-placement="top-center" src="{{page.process.diagram}}" class="diagram w-100 pt4 pb6">
+    <div data-aos="fade-up" data-aos-anchor-placement="top-center" class="measure-extra-wide center pv4">
+      {% for copy in page.process.copy %}
+        {% if forloop.last == true %}
+          <p class="lh-copy ph3">{{copy}}</p>
+        {% else %}
+          <p class="lh-copy pb3 ph3">{{copy}}</p>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
 
-  <img src="{{page.work.hero}}" class="pt7 w-100">
-  <p class="f6 pt3 black-60 tc pb6">Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-
-  <div class="mw9 center ph3 ph6-m pv4">
-    <h2 class="f3 f2-m lh-deck franziska measure w-70-m">{{ page.work.headline }}</h2>
-    <div class="flex justify-between flex-column flex-row-m pv5">
-      <div class="pt3">
-        {% for service in page.work.services %}
-          <div class="pb4 flex items-start">
-            <img src="/assets/line.svg" class="pt3">
-            <div class="pl3">
-              <h3 class="f3 lh-deck">{{service.name}}</h3>
-              <p class="pv3 black-60">{{service.companies}}</p>
-            </div>
+  <!-- Fellows -->
+  <div class="w-100 pv6-sm pv5 ph5-l">
+    <div class="mw9 ph3 ph5-sm ph6-m center">
+      <p data-aos="fade-up" data-aos-anchor-placement="top-center" class="fw5 ttu tracked f6 black-30 pt4 pb3-m pb2 f6">{{page.current.label}}</p>
+      <h3 data-aos="fade-up" data-aos-anchor-placement="top-center" class="s-green noe f1-m f2 fw6 pv4-m pv3">{{page.current.headline}}</h3>
+      <p data-aos="fade-up" data-aos-anchor-placement="top-center" class="lh-deck f3-m f4 measure-wide black-70 pv2">{{page.current.deck}}</p>
+      <div data-aos="fade-up" data-aos-anchor-placement="top-center" class="flex flex-column flex-row-m pv5-m pv4 justify-between">
+        {% for fellow in page.current.fellows %}
+          <div class="w-50-m w-100 {{fellow.column_padding}}">
+            <h4 class="akkurat lh-title f2-sm f3 pb2">{{fellow.name}}</h4>
+            <p class="fw5 ttu tracked f6 black-50 pt2 pb4 f6">{{fellow.position}}</p>
+            <p class="lh-copy f5-m pb2">{{fellow.intro}}</p>
+            <h5 class="akkurat lh-deck f4 pb2 pt4">{{fellow.cta}}</h4>
+            <p class="pt3 f5">
+              <span class="s-green">
+                {% if fellow.twitter %}
+                  <a class="social-link" href="https://twitter.com/{{fellow.twitter}}"><svg fill="currentColor" class='icon mr3'><use xlink:href="#twitter" /></a>
+                {% endif %}
+                {% if fellow.website %}
+                  <a class="social-link" href="{{fellow.website}}"><svg fill="currentColor" class='icon mr3'><use xlink:href="#link" /></a>
+                {% endif %}
+                {% if fellow.email %}
+                  <a class="social-link" href="{{fellow.email}}"><svg fill="currentColor" class='icon mr3'><use xlink:href="#envelope" /></a>
+                {% endif %}
+                {% if fellow.linkedin %}
+                  <a class="social-link" href="https://linkedin.com/in/{{fellow.linkedin}}"><svg fill="currentColor" class='icon mr3'><use xlink:href="#linkedin" /></a>
+                {% endif %}
+                {% if fellow.github %}
+                  <a class="social-link" href="https://github.com/{{fellow.github}}"><svg fill="currentColor" class='icon mr3'><use xlink:href="#github" /></a>
+                {% endif %}
+              </span>
+            </p>
           </div>
         {% endfor %}
       </div>
-      <p class="measure-wide lh-copy">{{page.work.copy}}</p>
-    </div>
-    <div class="flex flex-column-reverse- flex-row-m justify-between pv6">
-      <div class="w-50 pr3 pt6">
-        <img src="http://placehold.it/600x400" class="w-100">
-        <p class="f6 pt3 black-60">Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-      </div>
-      <div class="w-50 pl3">
-        <img src="http://placehold.it/600x400" class="w-100">
-        <p class="f6 pt3 black-60">Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
-      </div>
     </div>
   </div>
 
-  <!-- Current fellows -->
 
-  <div class="mw9 center ph3 ph6-m pv6">
-    <h2 class="f2 franziska tc pb6 lh-deck w-70 center"> {{page.current.headline}}</h2>
-    {% for fellow in page.current.fellows limit:1 %}
-    <div class="flex justify-between flex-column-reverse flex-row-m items-center-m pb6">
-      <div class="w-40">
-        <img src="{{fellow.image}}" class="w-100">
-        <p class="pt4 f4 pb3">{{fellow.name}}</p>
-        <p class="f6 black-60">{{fellow.label}}</p>
-      </div>
-      <div class="measure-wide pvt5">
-        <h3 class="ttu s-green fw6 tracked f6">Design fellow '17</h3>
-        <h2 class="franziska f2 lh-title pv4-m">{{fellow.headline}}</h2>
-        <p class="measure-wide lh-copy pb4">{{fellow.copy}}</p>
-        <span class="s-green">
-          <a href="{{fellow.twitter}}"><svg fill="currentColor" class='icon mr2'><use xlink:href="#twitter" /></a>
-          <a href="{{fellow.twitter}}"><svg fill="currentColor" class='icon mr2'><use xlink:href="#linkedin" /></a>
-          <a href="{{fellow.twitter}}"><svg fill="currentColor" class='icon mr2'><use xlink:href="#github" /></a>
-        </span>
+  <!-- Companies -->
+  <div class="bg-grit pv6-sm pv5">
+    <div class="mw9 ph3 ph4-sm ph6-m center">
+      <div class="w-80-l w-90 center pv2">
+        <p data-aos="fade-up" data-aos-anchor-placement="top-center" class="ttu tracked fw5 f6 tc pv2">{{page.portfolio.label}}</p>
+        <h2 id="companies" data-aos="fade-up" data-aos-anchor-placement="top-center" class="noe f2-m f3 lh-deck tc fw6 pv5-m pv4-sm pv3">{{page.portfolio.headline | smartify}}</h2>
       </div>
     </div>
-    {% endfor %}
-
-    {% for fellow in page.current.fellows limit:1 offset: 1%}
-    <div class="flex justify-between flex-column flex-row-m items-center-m">
-      <div class="measure-wide">
-        <h3 class="ttu s-green fw6 tracked f6">Design fellow '17</h3>
-        <h2 class="franziska f2 lh-title pv4-m">{{fellow.headline}}</h2>
-        <p class="measure-wide lh-copy pb4">{{fellow.copy}}</p>
-        <span class="s-green">
-          <a href="{{fellow.twitter}}"><svg fill="currentColor" class='icon mr2'><use xlink:href="#twitter" /></a>
-          <a href="{{fellow.twitter}}"><svg fill="currentColor" class='icon mr2'><use xlink:href="#linkedin" /></a>
-          <a href="{{fellow.twitter}}"><svg fill="currentColor" class='icon mr2'><use xlink:href="#github" /></a>
-        </span>
-      </div>
-      <div class="w-40">
-        <img src="{{fellow.image}}" class="w-100">
-        <p class="pt4 f4 pb3">{{fellow.name}}</p>
-        <p class="f6 black-60">{{fellow.label}}</p>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
-
-
-<!-- Alumni -->
-
-  <div class="mw9 center ph3 ph6-m pv6">
-    <div>
-      <h3 class="f3 f2-m w-70-m tc franziska center lh-deck">{{page.alumni.headline}}</h3>
-    </div>
-    <div class="pt6 flex flex-wrap nh4-m nh3-sm nh2">
-      {% for item in site.alumni limit: 1 %}
-        <div class="pt5 w-50 ph4-m ph3-sm ph2 w-25-m">
-          <div class="bg-grit dib trans-tr3 relative">
-            <img src="{{item.image}}" class="w-100 trans-bl3">
-            <!-- <div class="absolute w-100 bg-s-green multiply " style="height:12%; bottom: 0;"></div> -->
-            <img src="/assets/logo_2.png" class="absolute multiply" style="bottom:0; right: 0; width: 75%;">
-          </div>
-          <p class="pt4 f4 pb3">{{item.title}} </p>
-          <p class="pb2 f6 black-60">{{item.position}}</p>
-          <p class="f6 black-60 pb4">{{item.company}}</p>
-          <span class="s-green">
-            <a href=""><svg fill="currentColor" class='icon mr2'><use xlink:href="#twitter" /></a>
-            <a href=""><svg fill="currentColor" class='icon mr2'><use xlink:href="#linkedin" /></a>
-            <a href=""><svg fill="currentColor" class='icon mr2'><use xlink:href="#github" /></a>
-          </span>
+    <div class="mw9 ph4-sm ph6-m center">
+      <div class="grid flex flex-wrap items-center grid--25 grid--50 pt4-m pt3 tc center">
+        {% for logo in page.portfolio.logos %}
+        <div class="grid__col w-50 w-25-l">
+          <!-- <div class="pa3-m pv4 opacity-80"> -->
+            <img data-aos-anchor="#companies" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="{{logo.delay}}" src="{{logo.link}}" class="{{logo.class}} mv4">
+          <!-- </div> -->
         </div>
-      {% endfor %}
-      {% for item in site.alumni limit: 1 offset: 1 %}
-        <div class="pt6 w-50 ph4-m ph3-sm ph2 w-25-m">
-          <div class="bg-grit dib trans-bl3 relative">
-            <img src="{{item.image}}" class="trans-tr3 w-100">
-            <!-- <div class="absolute w-100 bg-s-green multiply" style="height:8%; top: 0;"></div> -->
-            <img src="/assets/logo_6.png" class="absolute multiply" style="bottom:0; left: 0; width: 50%;">
-          </div>
-          <p class="mt3 pt4 f4 pb3">{{item.title}} </p>
-          <p class="pb2 f6 black-60">{{item.position}}</p>
-          <p class="f6 black-60 pb4">{{item.company}}</p>
-          <span class="s-green">
-            <a href=""><svg fill="currentColor" class='icon mr2'><use xlink:href="#twitter" /></a>
-            <a href=""><svg fill="currentColor" class='icon mr2'><use xlink:href="#linkedin" /></a>
-            <a href=""><svg fill="currentColor" class='icon mr2'><use xlink:href="#github" /></a>
-          </span>
-        </div>
-      {% endfor %}
-      {% for item in site.alumni limit: 1 offset: 2 %}
-        <div class="w-50 ph4-m ph3-sm ph2 w-25-m">
-          <div class="bg-grit dib trans-tl3 relative">
-            <img src="{{item.image}}" class="w-100 trans-br3">
-            <!-- <div class="absolute w-100 bg-s-green multiply" style="height:5%; bottom:0;"></div> -->
-            <img src="/assets/logo_4.png" class="absolute multiply" style="top:0; right: 0; width: 50%;">
-          </div>
-          <p class="pt4 f4 pb3">{{item.title}} </p>
-          <p class="pb2 f6 black-60">{{item.position}}</p>
-          <p class="f6 black-60 pb4">{{item.company}}</p>
-          <span class="s-green">
-            <a href=""><svg fill="currentColor" class='icon mr2'><use xlink:href="#twitter" /></a>
-            <a href=""><svg fill="currentColor" class='icon mr2'><use xlink:href="#linkedin" /></a>
-            <a href=""><svg fill="currentColor" class='icon mr2'><use xlink:href="#github" /></a>
-          </span>
-        </div>
-      {% endfor %}
-      {% for item in site.alumni limit: 1 offset: 3 %}
-        <div class="pt4 w-50 ph4-m ph3-sm ph2 w-25-m">
-          <div class="bg-grit dib trans-br3 mt4 relative">
-            <img src="{{item.image}}" class="trans-tl3 w-100">
-            <!-- <div class="absolute w-100 bg-s-green multiply" style="height:10%; top: 15%;"></div> -->
-            <img src="/assets/logo_1.png" class="absolute multiply" style="bottom:0; right: 0; width: 50%;">
-          </div>
-          <p class="mt3 pt4 f4 pb3">{{item.title}} </p>
-          <p class="pb2 f6 black-60">{{item.position}}</p>
-          <p class="f6 black-60 pb4">{{item.company}}</p>
-          <span class="s-green">
-            <a href=""><svg fill="currentColor" class='icon mr2'><use xlink:href="#twitter" /></a>
-            <a href=""><svg fill="currentColor" class='icon mr2'><use xlink:href="#linkedin" /></a>
-            <a href=""><svg fill="currentColor" class='icon mr2'><use xlink:href="#github" /></a>
-          </span>
-        </div>
-      {% endfor %}
+        {% endfor %}
+      </div>
     </div>
   </div>
 
-  <!-- Visiting designers -->
-
-  <div class="mw9 center ph3 ph6-m pv4 flex justify-between flex-column flex-row-m items-center-m">
-    <div class="measure-wide">
-      <h3 class="fw6 tracked ttu s-green f6">{{page.visitors.label}}</h3>
-      <h2 class="f2 franziska lh-deck pv4">{{page.visitors.headline}}</h2>
-      <p class="lh-copy">{{page.visitors.copy }}</p>
-    </div>
-    <div class="">
-      {% for designer in page.visitors.designers %}
-        <a href="{{designer.link}}" class="db f2 f1-m franziska lh-deck">{{designer.name}}</a>
-      {% endfor %}
+  <!-- Alumni -->
+  <div class="w-100 pb5-sm pt6-sm pt5 ph5-l">
+    <div class="mw9 ph3 ph5-sm ph6-m center">
+      <p data-aos="fade-up" data-aos-anchor-placement="top-center" class="fw5 ttu tracked f6 black-30 pt4 pb3-m pb2 f6">{{page.alumni.label}}</p>
+      <h3 data-aos="fade-up" data-aos-anchor-placement="top-center" class="s-green noe f1-m f2 fw6 pv4-m pv3">{{page.alumni.headline}}</h3>
+      <p id="alumni" data-aos="fade-up" data-aos-anchor-placement="top-center" class="lh-deck f3-m f4 measure-wide black-70 pv2">{{page.alumni.deck}}</p>
+      <div class="flex flex-wrap pv5-sm pt4 grid">
+        {% assign sorted = (site.alumni | sort: 'last_name') %}
+        {% for item in sorted %}
+        <div class="grid__col w-50 w-third-sm w-25-m pa3-m pa2">
+          <div class="bt b--black-20 mt3 pb5-m pb4" data-aos-anchor="#alumni" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="250ms">
+            <p class="fw5 ttu tracked f6 black-30 pt4 pb3 f6">{{item.class}}</p>
+            <h4 class="akkurat lh-title f3-m f4 pt3 pb3 akkurat">{{item.title}}</h4>
+            <p class="f7 black-70 lh-title">{{item.position}}</p>
+            <p class="f7 black-70 lh-copy pb4">{{item.company}}</p>
+            <p class="f5">
+              <span class="s-green">
+                {% if item.twitter %}
+                  <a class="social-link" href="https://twitter.com/{{item.twitter}}"><svg fill="currentColor" class='icon mr2'><use xlink:href="#twitter" /></a>
+                {% endif %}
+                {% if item.website %}
+                  <a class="social-link" href="{{item.website}}"><svg fill="currentColor" class='icon mr2'><use xlink:href="#link" /></a>
+                {% endif %}
+                {% if item.email %}
+                  <a class="social-link" href="{{item.email}}"><svg fill="currentColor" class='icon mr2'><use xlink:href="#envelope" /></a>
+                {% endif %}
+                {% if item.linkedin %}
+                  <a class="social-link" href="https://linkedin.com/{{item.linkedin}}"><svg fill="currentColor" class='icon mr2'><use xlink:href="#linkedin" /></a>
+                {% endif %}
+                {% if item.github %}
+                  <a class="social-link" href="https://github.com/{{item.github}}"><svg fill="currentColor" class='icon mr2'><use xlink:href="#github" /></a>
+                {% endif %}
+              </span>
+            </p>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
     </div>
   </div>
 
-  <!-- Apply -->
-
-  <div class="mw9 center ph6 pv6">
-    <h3 class="f2 tc franziska">{{page.apply.headline}}</h3>
-    <p class="measure-extra-wide pv4 tc lh-copy center">{{page.apply.copy}}</p>
-    <p class="center tc"><a href="{{page.apply.button.link}}" class="btn dib mv5">{{page.apply.button.text}}</a></p>
+  <!-- Join us -->
+  <div class="bg-grit-green pv6-sm pv5 ">
+    <div class="mw9 w-70-m w-80 center pv2 white tc">
+      <img id="join" data-aos="fade-up" data-aos-anchor-placement="top-center" src="{{page.join.headline}}" class="w-30-m w-50-sm w-60 center pb3">
+      <p data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-anchor="#join" data-aos-delay="300" class="pt4 pb5 lh-copy measure-extra-wide center">{{page.join.copy}}</p>
+      <a data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-anchor="#join" data-aos-delay="500" href="{{page.join.link}}" target="_blank" class="btn dib mb3">{{page.join.cta}}</a>
+      <img data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-anchor="#join" data-aos-delay="700" src="assets/logo-white.svg" class="db logo-small pt5 center">
+    </div>
   </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.1.1/aos.js"></script>
+  <script>
+    AOS.init({
+      once: true,
+    });
+  </script>
 
 </body>

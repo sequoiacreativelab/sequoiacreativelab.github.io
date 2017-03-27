@@ -1,8 +1,16 @@
 .btn {
-  background-color: $s-green;
   padding: 15px 40px;
   text-align: center;
-  color: white;
-  border-radius: 3px;
-  font-size: 18px;
+  color: $white;
+  border: 1px solid $white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 500;
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  background-color: $white;
+  color: $s-green;
+  transition: all 0.5s ease;
 }
