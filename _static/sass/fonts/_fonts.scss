@@ -11,33 +11,33 @@
 
 @font-face {
     font-family: 'Synthese';
-    src: url('../../fonts/synthese/bold/synthese-bold.eot');
-    src: url('../../fonts/synthese/bold/synthese-bold.eot?#iefix') format('embedded-opentype'),
-         url('../../fonts/synthese/bold/synthese-bold.woff2') format('woff2'),
-         url('../../fonts/synthese/bold/synthese-bold.woff') format('woff');
-    font-weight: 600;
+    src: url('../../fonts/synthese/regular/synthese-regular.eot');
+    src: url('../../fonts/synthese/regular/synthese-regular.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/synthese/regular/synthese-regular.woff2') format('woff2'),
+         url('../../fonts/synthese/regular/synthese-regular.woff') format('woff');
+    font-weight: 500;
     font-style: normal;
 
 }
 //
-// @font-face {
-//     font-family: 'Franziska Offc';
-//     src: url('../../fonts/franziska/light/franziska-light.eot');
-//     src: url('../../fonts/franziska/light/franziska-light.eot?#iefix') format('embedded-opentype'),
-//          url('../../fonts/franziska/light/franziska-light.woff2') format('woff2'),
-//          url('../../fonts/franziska/light/franziska-light.woff') format('woff');
-//     font-weight: 300;
-//     font-style: normal;
-//
-// }
-//
-// @font-face {
-//     font-family: 'Franziska Offc';
-//     src: url('../../fonts/franziska/light_italic/franziska-light-italic.eot');
-//     src: url('../../fonts/franziska/light_italic/franziska-light-italic.eot?#iefix') format('embedded-opentype'),
-//          url('../../fonts/franziska/light_italic/franziska-light-italic.woff2') format('woff2'),
-//          url('../../fonts/franziska/light_italic/franziska-light-italic.woff') format('woff');
-//     font-weight: 300;
-//     font-style: italic;
-//
-// }
+@font-face {
+    font-family: 'Noe Text';
+    src: url('../../fonts/noe/semibold/noe_text_semibold-webfont.eot');
+    src: url('../../fonts/noe/semibold/noe_text_semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/noe/semibold/noe_text_semibold-webfont.woff2') format('woff2'),
+         url('../../fonts/noe/semibold/noe_text_semibold-webfont.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Akkurat-Mono';
+    src: url('../../fonts/akkurat/lineto-akkuratmono-regular.eot');
+    src: url('../../fonts/akkurat/lineto-akkuratmono-regular.eot?#iefix') format('embedded-opentype'),
+         url('../../fonts/akkurat/lineto-akkuratmono-regular.woff2') format('woff2'),
+         url('../../fonts/akkurat/lineto-akkuratmono-regular.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+
+}

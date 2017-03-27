@@ -16,7 +16,7 @@ body {
 }
 
 .logo-small {
-  width: 25px;
+  width: 30px;
 }
 
 .portco-logo {
@@ -35,5 +35,33 @@ body {
 
   @media (min-width: $screen-md) {
     max-height: 38px;
+  }
+}
+
+.link a {
+  border-bottom: 1px dashed $s-green;
+  transition: color 0.5s ease;
+}
+
+.link a:hover {
+  color: $s-green;
+  transition: color 0.5s ease;
+}
+
+.social-link > .icon{
+  transition: all 0.2s ease;
+}
+
+.social-link > .icon:hover {
+  transform: scale(1.3);
+  transition: all 0.2s ease;
+}
+
+.diagram {
+  max-height: 450px;
+  display: none;
+
+  @media(min-width: 890px) {
+    display: block;
   }
 }

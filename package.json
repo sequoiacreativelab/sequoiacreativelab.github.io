@@ -9,6 +9,7 @@
   "author": "",
   "license": "",
   "dependencies": {
+    "aos": "^2.1.1",
     "browser-sync": "^2.16.0",
     "gulp": "^3.8.8",
     "gulp-autoprefixer": "1.0.0",

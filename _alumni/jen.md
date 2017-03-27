@@ -6,4 +6,11 @@ class: Design fellow
 date: 2016-01-4
 position: Product Designer
 company: Pocket
+twitter: jenniferwibowo
+email:
+linkedin:
+website: http://www.wiboworks.com/
+dribbble:
+github:
+medium:
 ---
