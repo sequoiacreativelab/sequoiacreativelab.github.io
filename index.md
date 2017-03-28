@@ -10,7 +10,7 @@ intro:
   details:
   - label: Who
     delay: 400
-    copy: "[James Buckhouse](https://twitter.com/buckhouse), [Sue Kim](http://suekiming.com), & [Jules Forrest](https://twitter.com/julesforrest)"
+    copy: "[James Buckhouse](https://twitter.com/buckhouse), [Sue Kim](http://linkedin.com/in/designkim), & [Jules Forrest](https://twitter.com/julesforrest)"
   - label: What
     delay: 650
     copy: Design products & experiences
@@ -30,6 +30,7 @@ process:
   copy:
   - When we help teams ship and iterate core features, we focus on the total experience — not just the pixels in their app. When we storyboard, we draw what’s happening in the world and what’s happening in their product. We also help Sequoia companies build healthy design orgs with the structures, processes and measurement tools they need to thrive.
   - Along the way, high-performing designers join the Sequoia Creative Lab for fast-paced, one-on-one, hands-on projects as Design Fellows and Visiting Designers. Design Fellows typically have 1–5 years experience and an urgent desire to sublimate their design career with a big jump forward while Visiting Designers bring their expertise on specific topics for short-term projects.
+  - Sound intriguing? [Apply here](https://docs.google.com/forms/d/e/1FAIpQLSfBmbvjNJ_vIwI4j8r0klvYFh771Wks-XSm0vv7exYJLmlpKw/viewform?c=0&w=1).
 current:
   label: The program
   headline: Meet the fellows

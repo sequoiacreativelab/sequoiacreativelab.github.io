@@ -8,6 +8,18 @@
   transition: color 0.2s ease;
 }
 
+.link-white a {
+  border-bottom: 1px dashed $white;
+  transition: color 0.3s ease;
+}
+
+.link-white a:hover {
+  color: $s-green;
+  transition: color 0.2s ease;
+  border-bottom: 1px dashed $s-green;
+}
+
+
 .social-link > .icon{
   transition: all 0.2s ease;
 }

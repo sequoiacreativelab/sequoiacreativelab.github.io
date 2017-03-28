@@ -44,7 +44,7 @@
     <div data-aos="fade-up" data-aos-anchor-placement="top-center" class="measure-extra-wide center pv4">
       {% for copy in page.process.copy %}
         {% if forloop.last == true %}
-          <p class="lh-copy ph3">{{copy}}</p>
+          <div class="lh-copy ph3 link-white">{{copy | markdownify}}</div>
         {% else %}
           <p class="lh-copy pb3 ph3">{{copy}}</p>
         {% endif %}
