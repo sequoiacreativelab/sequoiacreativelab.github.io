@@ -7,7 +7,7 @@
 
   <div class="flex flex-column flex-row-m w-100 vh-100-m">
     <div id="intro" class="flex flex-column justify-center items-center bg-grit-green center white tc f6 vh-100 w-100">
-      <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100" data-aos-duration="900">
+      <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="100" data-aos-duration="1000">
         <img src="{{page.intro.logo}}" class="logo pb4-m pb3">
         <p class="ttu tracked fw5 pv4 f5">{{page.intro.label}}</p>
         <img src="{{page.intro.scl_image}}" class="w-70-sm w-80 db center tc pv4">
@@ -68,19 +68,19 @@
             <p class="pt3 f5">
               <span class="s-green">
                 {% if fellow.twitter %}
-                  <a class="social-link" href="https://twitter.com/{{fellow.twitter}}"><svg fill="currentColor" class='icon mr3'><use xlink:href="#twitter" /></a>
+                  <a class="social-link" target="_blank" href="https://twitter.com/{{fellow.twitter}}"><svg fill="currentColor" class='icon mr3'><use xlink:href="#twitter" /></a>
                 {% endif %}
                 {% if fellow.website %}
-                  <a class="social-link" href="{{fellow.website}}"><svg fill="currentColor" class='icon mr3'><use xlink:href="#link" /></a>
+                  <a class="social-link" target="_blank" href="{{fellow.website}}"><svg fill="currentColor" class='icon mr3'><use xlink:href="#link" /></a>
                 {% endif %}
                 {% if fellow.email %}
-                  <a class="social-link" href="{{fellow.email}}"><svg fill="currentColor" class='icon mr3'><use xlink:href="#envelope" /></a>
+                  <a class="social-link" target="_blank" href="{{fellow.email}}"><svg fill="currentColor" class='icon mr3'><use xlink:href="#envelope" /></a>
                 {% endif %}
                 {% if fellow.linkedin %}
-                  <a class="social-link" href="https://linkedin.com/in/{{fellow.linkedin}}"><svg fill="currentColor" class='icon mr3'><use xlink:href="#linkedin" /></a>
+                  <a class="social-link" target="_blank" href="https://linkedin.com/in/{{fellow.linkedin}}"><svg fill="currentColor" class='icon mr3'><use xlink:href="#linkedin" /></a>
                 {% endif %}
                 {% if fellow.github %}
-                  <a class="social-link" href="https://github.com/{{fellow.github}}"><svg fill="currentColor" class='icon mr3'><use xlink:href="#github" /></a>
+                  <a class="social-link" target="_blank" href="https://github.com/{{fellow.github}}"><svg fill="currentColor" class='icon mr3'><use xlink:href="#github" /></a>
                 {% endif %}
               </span>
             </p>
@@ -130,19 +130,22 @@
             <p class="f5">
               <span class="s-green">
                 {% if item.twitter %}
-                  <a class="social-link" href="https://twitter.com/{{item.twitter}}"><svg fill="currentColor" class='icon mr2'><use xlink:href="#twitter" /></a>
+                  <a class="social-link" target="_blank" href="https://twitter.com/{{item.twitter}}"><svg fill="currentColor" class='icon mr2'><use xlink:href="#twitter" /></a>
                 {% endif %}
                 {% if item.website %}
-                  <a class="social-link" href="{{item.website}}"><svg fill="currentColor" class='icon mr2'><use xlink:href="#link" /></a>
+                  <a class="social-link" target="_blank" href="{{item.website}}"><svg fill="currentColor" class='icon mr2'><use xlink:href="#link" /></a>
                 {% endif %}
                 {% if item.email %}
-                  <a class="social-link" href="{{item.email}}"><svg fill="currentColor" class='icon mr2'><use xlink:href="#envelope" /></a>
+                  <a class="social-link" target="_blank" href="{{item.email}}"><svg fill="currentColor" class='icon mr2'><use xlink:href="#envelope" /></a>
                 {% endif %}
                 {% if item.linkedin %}
-                  <a class="social-link" href="https://linkedin.com/{{item.linkedin}}"><svg fill="currentColor" class='icon mr2'><use xlink:href="#linkedin" /></a>
+                  <a class="social-link" target="_blank" href="https://linkedin.com/{{item.linkedin}}"><svg fill="currentColor" class='icon mr2'><use xlink:href="#linkedin" /></a>
                 {% endif %}
                 {% if item.github %}
-                  <a class="social-link" href="https://github.com/{{item.github}}"><svg fill="currentColor" class='icon mr2'><use xlink:href="#github" /></a>
+                  <a class="social-link" target="_blank" href="https://github.com/{{item.github}}"><svg fill="currentColor" class='icon mr2'><use xlink:href="#github" /></a>
+                {% endif %}
+                {% if item.dribbble %}
+                  <a class="social-link" target="_blank" href="https://dribbble.com/{{item.dribbble}}"><svg fill="currentColor" class='icon mr2'><use xlink:href="#dribbble" /></a>
                 {% endif %}
               </span>
             </p>
@@ -158,7 +161,9 @@
     <div class="mw9 w-70-m w-80 center pv2 white tc">
       <img id="join" data-aos="fade-up" data-aos-anchor-placement="top-center" src="{{page.join.headline}}" class="w-30-m w-50-sm w-60 center pb3">
       <p data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-anchor="#join" data-aos-delay="300" class="pt4 pb5 lh-copy measure-extra-wide center">{{page.join.copy}}</p>
-      <a data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-anchor="#join" data-aos-delay="500" href="{{page.join.link}}" target="_blank" class="btn dib mb3">{{page.join.cta}}</a>
+      <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-anchor="#join" data-aos-delay="500">
+        <a href="{{page.join.link}}" target="_blank" class="btn dib mb3">{{page.join.cta}}</a>
+      </div>
       <img data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-anchor="#join" data-aos-delay="700" src="assets/logo-white.svg" class="db logo-small pt5 center">
     </div>
   </div>

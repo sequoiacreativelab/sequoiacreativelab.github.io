@@ -10,7 +10,7 @@ twitter: byalicelee
 email:
 linkedin:
 website: http://byalicelee.com/
-dribbble:
+dribbble: byalicelee
 github:
 medium:
 ---

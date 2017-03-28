@@ -12,16 +12,16 @@ intro:
     delay: 400
     copy: "[James Buckhouse](https://twitter.com/buckhouse), [Sue Kim](http://suekiming.com), & [Jules Forrest](https://twitter.com/julesforrest)"
   - label: What
-    delay: 600
+    delay: 650
     copy: Design products & experiences
   - label: Where
-    delay: 800
+    delay: 900
     copy: At [Sequoia](https://sequoiacap.com) portfolio companies
   - label: When
-    delay: 1000
+    delay: 1150
     copy: During pivotal company moments
   - label: Why
-    delay: 1200
+    delay: 1400
     copy: To help the daring ~~build~~ design legendary companies.
 process:
   label: Here's how
@@ -31,15 +31,13 @@ process:
   - When we help teams ship and iterate core features, we focus on the total experience — not just the pixels in their app. When we storyboard, we draw what’s happening in the world and what’s happening in their product. We also help Sequoia companies build healthy design orgs with the structures, processes and measurement tools they need to thrive.
   - Along the way, high-performing designers join the Sequoia Creative Lab for fast-paced, one-on-one, hands-on projects as Design Fellows and Visiting Designers. Design Fellows typically have 1–5 years experience and an urgent desire to sublimate their design career with a big jump forward while Visiting Designers bring their expertise on specific topics for short-term projects.
 current:
-  label: a lasting network
+  label: The program
   headline: Meet the fellows
   deck: Design Fellows join the Sequoia Creative Lab for 3 – 12 months to lead product design projects for companies within the Sequoia portfolio. After the fellowship, they aim to find a full-time home on one of the portfolio's design teams.
   fellows:
   - name: Sue Kim
     position: Design fellow '17
     intro: Sue developed her passion in art and design at Rhode Island School of Design, where she studied industrial design. She enjoys learning about cultures and designing compelling solutions through experience. On her free time, she dabbles in photography and appreciates Danish furniture.
-    subhead: What's next
-    goal: Inheriting industrial design principles, Sue focuses on design that reflect on simplicity, honesty, and detail orientation. Her product design work has created impact on both on and off screen experiences. Sue anticipates to join a company that pertains an active collaboration process across teams.
     cta: Get in touch
     twitter: suemeetsoo
     website: https://hkimdesign.com/
@@ -48,9 +46,7 @@ current:
     column_padding: pr5-m
   - name: Jules Forrest
     position: Design fellow '17
-    intro: Jules is a product designer and front-end developer who first became interested in design and typography by working on her college newspaper in upstate New York. She joined the Sequoia Creative Lab to explore the industries within the Sequoia portfolio and collaborate with the portfolio's design teams. At work, she builds design systems that prioritize consistency over pixel-perfection.
-    subhead: From industrial design to tech
-    goal: Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod.
+    intro: Jules is a product designer who first became interested in design and typography while working on her college's newspaper in upstate New York. A stickler for details, she likes building design systems that prioritize consistency over pixel-perfection. After she leaves the lab, she's looking forward to joining a team where she can continue to develop her front-end skillset.
     cta: Get in touch
     twitter: julesforrest
     website: http://freshpepper.co

@@ -1,0 +1,8 @@
+.diagram {
+  max-height: 450px;
+  display: none;
+
+  @media(min-width: 890px) {
+    display: block;
+  }
+}
