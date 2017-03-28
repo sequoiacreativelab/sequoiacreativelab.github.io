@@ -37,7 +37,7 @@ current:
   fellows:
   - name: Sue Kim
     position: Design fellow '17
-    intro: Sue developed her passion in art and design at Rhode Island School of Design, where she studied industrial design. She enjoys learning about cultures and designing compelling solutions through experience. On her free time, she dabbles in photography and appreciates Danish furniture.
+    intro: Sue developed her passion in art and design at Rhode Island School of Design, where she studied industrial design. Inheriting industrial design principles, Sue focuses on design that reflect on simplicity, honesty, and detail orientation. Her product design work has created impact on both on and off screen experiences. Sue looks forward to work on products that value both on-screen and off-screen user experience.
     cta: Get in touch
     twitter: suemeetsoo
     website: https://hkimdesign.com/

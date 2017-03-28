@@ -38,9 +38,9 @@
   <div class="w-100 bg-grit-gray white pv6-sm pv5">
     <div class="w-80-l w-90 center ph3 ph4-sm ph6-m center pv2-m" data-aos="fade-up" data-aos-anchor-placement="top-center">
       <p class="ttu tracked fw5 f6 tc pv2">{{page.process.label}}</p>
-      <h2 class="noe f2-m f3 lh-deck tc fw6 pv5-m pv4-sm pv3">{{page.process.headline}}</h2>
+      <h2 class="noe f2-m f3 lh-deck tc fw6 pv5-m pv4-sm pv3 measure center">{{page.process.headline}}</h2>
     </div>
-    <img data-aos="fade-up" data-aos-anchor-placement="top-center" src="{{page.process.diagram}}" class="diagram w-100 pt4 pb6">
+    <img data-aos="fade-up" data-aos-anchor-placement="top-center" src="{{page.process.diagram}}" class="diagram w-100 pt4-lg pb6-lg pb5-m pt3 pb4">
     <div data-aos="fade-up" data-aos-anchor-placement="top-center" class="measure-extra-wide center pv4">
       {% for copy in page.process.copy %}
         {% if forloop.last == true %}
@@ -118,7 +118,7 @@
       <p data-aos="fade-up" data-aos-anchor-placement="top-center" class="fw5 ttu tracked f6 black-30 pt4 pb3-m pb2 f6">{{page.alumni.label}}</p>
       <h3 data-aos="fade-up" data-aos-anchor-placement="top-center" class="s-green noe f1-m f2 fw6 pv4-m pv3">{{page.alumni.headline}}</h3>
       <p id="alumni" data-aos="fade-up" data-aos-anchor-placement="top-center" class="lh-deck f3-m f4 measure-wide black-70 pv2">{{page.alumni.deck}}</p>
-      <div class="flex flex-wrap pv5-sm pt4 grid">
+      <div class="flex flex-wrap pv5-sm pb5 pt4 grid">
         {% assign sorted = (site.alumni | sort: 'last_name') %}
         {% for item in sorted %}
         <div class="grid__col w-50 w-third-sm w-25-m pa3-m pa2">
