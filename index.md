@@ -6,7 +6,7 @@ intro:
   label: Welcome to the
   scl_image: assets/scl.png
   date: Est. 2014
-  location: Menlo Park, Calif.
+  location: Menlo Park, CA
   details:
   - label: Who
     delay: 400
