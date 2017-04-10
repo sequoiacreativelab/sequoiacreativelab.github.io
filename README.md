@@ -52,7 +52,9 @@ Install node using Homebrew. Installing node will let you use npm, a package man
 ```$ brew install node```
 
 ## Website setup
-Tk tk tk tk
+We created a simple site for the lab to showcase who we are and what we do. It was built with [Jekyll](https://jekyllrb.com/) for static site generation, [Gulp](https://gulpjs.com/) for managing our build tasks, [Tachyons](http://tachyons.io/) for organizing our CSS and [AOS](https://github.com/michalsnik/aos) for animation. It lives on [Github Pages](https://pages.github.com/) and is powered by [Cloudflare](https://www.cloudflare.com/).
+
+If you need to make changes to the site, follow the steps below to get set up.
 
 ### Clone github repo
 Clone the Github repo to your machine locally. If you get an SSH error, try following [these instructions](https://help.github.com/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent/).
@@ -67,7 +69,7 @@ Clone the Github repo to your machine locally. If you get an SSH error, try foll
 
 ```$ gem install jekyll bundler```
 
-### Install gulp
+### Install Gulp
 
 [Gulp](https://gulpjs.com/) is a JavaScript task runner that automates tasks in the SCL development workflow. The SCL site uses gulp to do things like bundle and minify libraries and stylesheets, refresh the browser after changes using [BrowserSync](https://browsersync.io/) and optimize images.
 
@@ -81,7 +83,7 @@ Install all of the packages that the SCL site specified for its gulp tasks.
 ```$ npm install```
 
 ### Run Jekyll
-Run the Jekyll, starting the local server. 
+Run Jekyll, starting the local server. 
 
 ```$ bundle exec jekyll serve```
 
