@@ -41,11 +41,6 @@ This will tell your machine to use the Ruby we just installed in every directory
 
 You should see `/Users/YOURNAME/.rbenv/shims/ruby`. If you get `/usr/bin/ruby`, try troubleshooting with [these instructions](http://stackoverflow.com/a/12150580).
 
-### Install bundler
-Install bundler, a gem manager for Ruby. Installing bundler will let you use Jekyll, the static site generator that the SCL site runs on. 
-
-```$ gem install bundler```
-
 ### Install node
 Install node using Homebrew. Installing node will let you use npm, a package manager for JavaScript. 
 
@@ -64,8 +59,8 @@ Clone the Github repo to your machine locally. If you get an SSH error, try foll
 ### Navigate to the SCL repo
 ```$ cd scl```
 
-### Install Jekyll
-[Jekyll](https://jekyllrb.com/) is the static site generator that the SCL site runs on. 
+### Install Jekyll and Bundler
+[Jekyll](https://jekyllrb.com/) is the static site generator that the SCL site runs on. [Bundler](http://bundler.io/) is a gem manager for Ruby that helps us make sure everyone's copy of the site is using the same tools. 
 
 ```$ gem install jekyll bundler```
 
