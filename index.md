@@ -28,9 +28,8 @@ process:
   headline: The Sequoia Creative Lab employs a full-process approach to solving design problems
   diagram: /assets/process.svg
   copy:
-  - When we help teams ship and iterate core features, we focus on the total experience — not just the pixels in their app. When we storyboard, we draw what’s happening in the world and what’s happening in their product. We also help Sequoia companies build healthy design orgs with the structures, processes and measurement tools they need to thrive.
+  - When we help teams ship and iterate core features, we focus on the total experience — not just the pixels in their app. When we storyboard, we draw what’s happening in the world and what’s happening in their product. We also help Sequoia companies tell their story and build healthy design orgs with the structures, processes and measurement tools they need to thrive.
   - Along the way, high-performing designers join the Sequoia Creative Lab for fast-paced, one-on-one, hands-on projects as Design Fellows and Visiting Designers. Design Fellows typically have 1–5 years experience and an urgent desire to sublimate their design career with a big jump forward while Visiting Designers bring their expertise on specific topics for short-term projects.
-  - Sound intriguing? [Apply here](https://docs.google.com/forms/d/e/1FAIpQLSfBmbvjNJ_vIwI4j8r0klvYFh771Wks-XSm0vv7exYJLmlpKw/viewform?c=0&w=1).
 current:
   label: The program
   headline: Meet the fellows
@@ -86,10 +85,10 @@ portfolio:
 alumni:
   label: A lasting community
   headline: Sequoia Creative Lab alumni
-  deck: When their time at the Lab comes to a close, we support each designer with a network of past Fellows and Visiting Designers, as well as access to the larger Sequoia community of designers who work at companies within the portfolio.
+  deck: When their time at the Lab comes to a close, we support each designer with a network of past Fellows and Visiting Designers, as well as access to the larger community of designers who work across the Sequoia portfolio.
 join:
   headline: assets/join.png
-  copy: "If you’re a designer and would like come work with us, we'd love to hear from you. Oh, and one more thing (so you don’t have to ask) — YES — of course! — both Visiting Designers and Design Fellows are paid gigs. Hope to see you soon at the #SCL."
+  copy: "We're always looking for talented and passionate people to join us. If you’re an experienced designer looking to work on fast-paced, hands-on projects with the Sequoia portfolio, we'd love to hear from you."
   link: https://docs.google.com/forms/d/e/1FAIpQLSfBmbvjNJ_vIwI4j8r0klvYFh771Wks-XSm0vv7exYJLmlpKw/viewform?c=0&w=1
   cta: Apply now
 ---

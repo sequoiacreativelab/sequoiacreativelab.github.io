@@ -43,12 +43,9 @@
     <img data-aos="fade-up" data-aos-anchor-placement="top-center" src="{{page.process.diagram}}" class="diagram w-100 pt4-lg pb6-lg pb5-m pt3 pb4">
     <div data-aos="fade-up" data-aos-anchor-placement="top-center" class="measure-extra-wide center pv4">
       {% for copy in page.process.copy %}
-        {% if forloop.last == true %}
-          <div class="lh-copy ph3 link-white">{{copy | markdownify}}</div>
-        {% else %}
-          <p class="lh-copy pb3 ph3">{{copy}}</p>
-        {% endif %}
+        <p class="lh-copy pb3 ph3">{{copy}}</p>
       {% endfor %}
+      <p class="lh-copy ph3 link-white"> Sound intriguing? <a href="https://docs.google.com/forms/d/e/1FAIpQLSfBmbvjNJ_vIwI4j8r0klvYFh771Wks-XSm0vv7exYJLmlpKw/viewform?c=0&w=1" target="_blank">Apply here</a>.</p>
     </div>
   </div>
 
@@ -62,7 +59,7 @@
         {% for fellow in page.current.fellows %}
           <div class="w-50-m w-100 {{fellow.column_padding}}">
             <h4 class="akkurat lh-title f2-sm f3 pb2">{{fellow.name}}</h4>
-            <p class="fw5 ttu tracked f6 black-50 pt2 pb4 f6">{{fellow.position}}</p>
+            <p class="fw5 ttu tracked f6 black-30 pt2 pb4 f6">{{fellow.position}}</p>
             <p class="lh-copy f5-m pb2">{{fellow.intro}}</p>
             <h5 class="akkurat lh-deck f4 pb2 pt4">{{fellow.cta}}</h4>
             <p class="pt3 f5">
@@ -173,6 +170,7 @@
     AOS.init({
       once: true,
     });
+    window.onresize = AOS.refresh();
   </script>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
