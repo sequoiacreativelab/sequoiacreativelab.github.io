@@ -59,35 +59,35 @@ portfolio:
   headline: As Sequoia's design ambassadors, the Creative Lab collaborates across the portfolio on products, processes and design culture
   logos:
   - link: /assets/airbnb.svg
-    class: portco-logo-extra
+    class: portco-logo-lg
     storylink: https://www.sequoiacap.com/company-story/airbnb-story/
     delay: 0
   - link: /assets/doordash.svg
-    class: portco-logo
+    class: portco-logo-sm
     storylink: https://www.sequoiacap.com/company-story/doordash-story/
     delay: 100
   - link: /assets/evernote.svg
-    class: portco-logo-med
+    class: portco-logo-md
     storylink: https://www.sequoiacap.com/companies/evernote/
     delay: 200
   - link: /assets/github.svg
-    class: portco-logo
+    class: portco-logo-sm
     storylink: https://www.sequoiacap.com/companies/github/
     delay: 300
   - link: /assets/percolate.svg
-    class: portco-logo
+    class: portco-logo-sm
     storylink: https://www.sequoiacap.com/companies/percolate/
     delay: 400
   - link: /assets/plangrid.svg
-    class: portco-logo
+    class: portco-logo-sm
     storylink: https://www.sequoiacap.com/companies/plangrid/
     delay: 500
   - link: /assets/tunein.svg
-    class: portco-logo
+    class: portco-logo-sm
     storylink: https://www.sequoiacap.com/companies/tunein/
     delay: 600
   - link: /assets/unity.svg
-    class: portco-logo-extra
+    class: portco-logo-lg
     storylink: https://www.sequoiacap.com/companies/unity-technologies/
     delay: 700
 alumni:
