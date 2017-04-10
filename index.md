@@ -16,7 +16,7 @@ intro:
     copy: Design products & experiences
   - label: Where
     delay: 900
-    copy: At [Sequoia](https://sequoiacap.com) portfolio companies
+    copy: At [Sequoia](https://sequoiacap.com) & our portfolio companies
   - label: When
     delay: 1150
     copy: During pivotal company moments
@@ -60,27 +60,35 @@ portfolio:
   logos:
   - link: /assets/airbnb.svg
     class: portco-logo-extra
+    storylink: https://www.sequoiacap.com/company-story/airbnb-story/
     delay: 0
   - link: /assets/doordash.svg
     class: portco-logo
+    storylink: https://www.sequoiacap.com/company-story/doordash-story/
     delay: 100
+  - link: /assets/evernote.svg
+    class: portco-logo-med
+    storylink: https://www.sequoiacap.com/companies/evernote/
+    delay: 200
   - link: /assets/github.svg
     class: portco-logo
-    delay: 200
+    storylink: https://www.sequoiacap.com/companies/github/
+    delay: 300
   - link: /assets/percolate.svg
     class: portco-logo
-    delay: 300
+    storylink: https://www.sequoiacap.com/companies/percolate/
+    delay: 400
   - link: /assets/plangrid.svg
     class: portco-logo
-    delay: 400
-  - link: /assets/simplisafe.png
-    class: portco-logo
+    storylink: https://www.sequoiacap.com/companies/plangrid/
     delay: 500
   - link: /assets/tunein.svg
     class: portco-logo
+    storylink: https://www.sequoiacap.com/companies/tunein/
     delay: 600
   - link: /assets/unity.svg
     class: portco-logo-extra
+    storylink: https://www.sequoiacap.com/companies/unity-technologies/
     delay: 700
 alumni:
   label: A lasting community

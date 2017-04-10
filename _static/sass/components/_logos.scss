@@ -17,6 +17,17 @@
   }
 }
 
+.portco-logo-med {
+  max-height: 25px;
+  max-width: 150px;
+
+  @media (min-width: $screen-md) {
+    max-height: 31px;
+    max-width: 185px;
+  }
+
+}
+
 .portco-logo-extra {
   max-height: 30px;
 

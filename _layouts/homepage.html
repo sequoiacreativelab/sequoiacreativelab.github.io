@@ -100,9 +100,7 @@
       <div class="grid flex flex-wrap items-center grid--25 grid--50 pt4-m pt3 tc center">
         {% for logo in page.portfolio.logos %}
         <div class="grid__col w-50 w-25-l">
-          <!-- <div class="pa3-m pv4 opacity-80"> -->
-            <img data-aos-anchor="#companies" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="{{logo.delay}}" src="{{logo.link}}" class="{{logo.class}} mv4">
-          <!-- </div> -->
+          <a href="{{logo.storylink}}" target="_blank"><img data-aos-anchor="#companies" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="{{logo.delay}}" src="{{logo.link}}" class="{{logo.class}} mv4"></a>
         </div>
         {% endfor %}
       </div>
