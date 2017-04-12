@@ -96,7 +96,7 @@ alumni:
   deck: When their time at the Lab comes to a close, we support each designer with a network of past Fellows and Visiting Designers, as well as access to the larger community of designers who work across the Sequoia portfolio.
 join:
   headline: assets/join.png
-  copy: "We're always looking for talented and passionate people to join us. If you’re an experienced designer looking to work on fast-paced, hands-on projects with the Sequoia portfolio, we'd love to hear from you."
+  copy: "We're always looking for talented and passionate people to join us. If you’re an experienced designer looking to work on fast-paced, hands-on projects with Sequoia and our portfolio, we'd love to hear from you."
   link: https://docs.google.com/forms/d/e/1FAIpQLSfBmbvjNJ_vIwI4j8r0klvYFh771Wks-XSm0vv7exYJLmlpKw/viewform?c=0&w=1
   cta: Apply now
 ---
