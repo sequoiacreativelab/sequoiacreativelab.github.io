@@ -7,10 +7,10 @@ date: 2016-01-4
 position: Product Designer
 company: Evernote
 twitter: backtofutura
-email:
-linkedin:
+email: jessiejren@gmail.com
+linkedin: http://linkedin.com/in/jessiejren/
 website: http://jessieren.com
-dribbble:
+dribbble: 
 github:
 medium:
 ---

@@ -97,9 +97,9 @@
       </div>
     </div>
     <div class="mw9 ph4-sm ph6-m center">
-      <div class="grid flex flex-wrap items-center grid--25 grid--50 pt4-m pt3 tc center">
+      <div class="grid flex flex-wrap items-center pt4-m pt3 tc center">
         {% for logo in page.portfolio.logos %}
-        <div class="grid__col w-50 w-25-l">
+        <div class="grid__col w-50 w-33-l">
           <a href="{{logo.storylink}}" target="_blank"><img data-aos-anchor="#companies" data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-delay="{{logo.delay}}" src="{{logo.link}}" class="{{logo.class}} mv4"></a>
         </div>
         {% endfor %}

@@ -37,7 +37,7 @@ current:
   fellows:
   - name: Sue Kim
     position: Design fellow '17
-    intro: Sue developed her passion in art and design at Rhode Island School of Design, where she studied industrial design. Inheriting industrial design principles, Sue focuses on design that reflect on simplicity, honesty, and detail orientation. Her product design work has created impact on both on and off screen experiences. Sue looks forward to work on products that value both on-screen and off-screen user experience.
+    intro: Sue developed her passion in art and design at Rhode Island School of Design, where she studied industrial design. Inheriting industrial design principles, Sue focuses on design that reflect on simplicity, honesty, and detail orientation. Her product design work has created impact both on and off-screen and she looks forward to work on products that value both kinds of user experiences.
     cta: Get in touch
     twitter: suemeetsoo
     website: https://hkimdesign.com/
@@ -58,38 +58,30 @@ portfolio:
   label: More than just pixels
   headline: As Sequoia's design ambassadors, the Creative Lab collaborates across the portfolio on products, processes and design culture
   logos:
-  - link: /assets/airbnb.svg
-    class: portco-logo-lg
-    storylink: https://www.sequoiacap.com/company-story/airbnb-story/
-    delay: 0
-  - link: /assets/doordash.svg
-    class: portco-logo-sm
-    storylink: https://www.sequoiacap.com/company-story/doordash-story/
-    delay: 100
   - link: /assets/evernote.svg
     class: portco-logo-md
     storylink: https://www.sequoiacap.com/companies/evernote/
-    delay: 200
+    delay: 0
   - link: /assets/github.svg
     class: portco-logo-sm
     storylink: https://www.sequoiacap.com/companies/github/
-    delay: 300
+    delay: 100
   - link: /assets/percolate.svg
     class: portco-logo-sm
     storylink: https://www.sequoiacap.com/companies/percolate/
-    delay: 400
+    delay: 200
   - link: /assets/plangrid.svg
     class: portco-logo-sm
     storylink: https://www.sequoiacap.com/companies/plangrid/
-    delay: 500
+    delay: 300
   - link: /assets/tunein.svg
     class: portco-logo-sm
     storylink: https://www.sequoiacap.com/companies/tunein/
-    delay: 600
+    delay: 400
   - link: /assets/unity.svg
     class: portco-logo-lg
     storylink: https://www.sequoiacap.com/companies/unity-technologies/
-    delay: 700
+    delay: 500
 alumni:
   label: A lasting community
   headline: Sequoia Creative Lab alumni

@@ -1,1 +1,1 @@
-!function(){if(window.addEventListener&&document.querySelector){var e=document.documentElement;e.classList.remove("no-js"),e.classList.add("js")}}();
+!function(){if(window.addEventListener&&document.querySelector){var e=document.documentElement;e.classList.remove("no-js"),e.classList.add("js")}}(),window.onload=function(){for(var e=document.getElementsByTagName("a"),t=0;t<e.length;t++)e[t].setAttribute("target","_blank")};
