@@ -25,7 +25,7 @@ intro:
     copy: To help the daring ~~build~~ design legendary companies.
 process:
   label: Here's how
-  headline: The Sequoia Creative Lab employs a full-process approach to solving design problems
+  headline: The Sequoia Creative Lab employs a full-process approach to solving design problems.
   diagram: /assets/process.svg
   copy:
   - When we help teams ship and iterate core features, we focus on the total experience — not just the pixels in their app. When we storyboard, we draw what’s happening in the world and what’s happening in their product. We also help Sequoia companies tell their story and build healthy design orgs with the structures, processes and measurement tools they need to thrive.
@@ -56,7 +56,7 @@ current:
     column_padding: pl5-m pt5 pt0-m
 portfolio:
   label: More than just pixels
-  headline: As Sequoia's design ambassadors, the Creative Lab collaborates across the portfolio on products, processes and design culture
+  headline: As Sequoia's design ambassadors, the Creative Lab collaborates across the portfolio on products, processes and design culture.
   logos:
   - link: /assets/doordash.svg
     class: portco-logo-sm
@@ -91,9 +91,33 @@ portfolio:
     storylink: https://www.sequoiacap.com/companies/unity-technologies/
     delay: 700
 alumni:
-  label: A lasting community
+  label: A lasting network
   headline: Sequoia Creative Lab alumni
   deck: When their time at the Lab comes to a close, we support each designer with a network of past Fellows and Visiting Designers, as well as access to the larger community of designers who work across the Sequoia portfolio.
+careers:
+  label: Growing our community
+  headline: With over 75 open design positions across the Sequoia portfolio at any given moment, we also love to connect designers to their dream jobs.
+  positions:
+  - link: https://www.sequoiacap.com/jobs/534669/
+    title: Senior Product Designer
+    company: Strava
+  - link: https://www.sequoiacap.com/jobs/509126/
+    title: Product Designer
+    company: Dropbox
+  - link: https://www.sequoiacap.com/jobs/643089/
+    title: User Experience Architect
+    company: Eventbrite
+  - link: https://www.sequoiacap.com/jobs/671257/
+    title: Senior Product Designer
+    company: Instacart
+  - link: https://www.sequoiacap.com/jobs/480571/
+    title: Product Designer
+    company: Thumbtack
+  - link: https://www.sequoiacap.com/jobs/?filters=38
+    title: View all positions
+    company:
+  copy:
+  cta:
 join:
   headline: assets/join.png
   copy: "We're always looking for talented and passionate people to join us. If you’re an experienced designer looking to work on fast-paced, hands-on projects with Sequoia and our portfolio, we'd love to hear from you."
