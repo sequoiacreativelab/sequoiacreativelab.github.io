@@ -7,7 +7,7 @@ date: 2016-01-4
 position: Senior UX Designer
 company: Apple
 twitter: backtofutura
-email: mailto:jessiejren@gmail.com
+email:
 linkedin: in/jessiejren
 website: http://jessieren.com
 dribbble:
