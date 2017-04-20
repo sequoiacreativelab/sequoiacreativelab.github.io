@@ -6,13 +6,24 @@
   width: 30px;
 }
 
+.portco-logo-xs {
+
+  max-height: 18px;
+  max-width: 140px;
+
+  @media (min-width: $screen-md) {
+    max-height: 22px;
+    max-width: 185px;
+  }
+}
+
 .portco-logo-sm {
 
   max-height: 20px;
   max-width: 140px;
 
   @media (min-width: $screen-md) {
-    max-height: 25px;
+    max-height: 26px;
     max-width: 185px;
   }
 }

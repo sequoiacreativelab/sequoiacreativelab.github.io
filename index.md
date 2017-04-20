@@ -58,6 +58,10 @@ portfolio:
   label: More than just pixels
   headline: As Sequoia's design ambassadors, the Creative Lab collaborates across the portfolio on products, processes and design culture
   logos:
+  - link: /assets/doordash.svg
+    class: portco-logo-sm
+    storylink: https://www.sequoiacap.com/company-story/doordash-story/
+    delay: 0
   - link: /assets/evernote.svg
     class: portco-logo-md
     storylink: https://www.sequoiacap.com/companies/evernote/
@@ -65,23 +69,27 @@ portfolio:
   - link: /assets/github.svg
     class: portco-logo-sm
     storylink: https://www.sequoiacap.com/companies/github/
-    delay: 100
-  - link: /assets/percolate.svg
-    class: portco-logo-sm
-    storylink: https://www.sequoiacap.com/companies/percolate/
     delay: 200
+  - link: /assets/percolate.svg
+    class: portco-logo-xs
+    storylink: https://www.sequoiacap.com/companies/percolate/
+    delay: 300
   - link: /assets/plangrid.svg
     class: portco-logo-sm
     storylink: https://www.sequoiacap.com/companies/plangrid/
-    delay: 300
+    delay: 400
+  - link: /assets/stripe.svg
+    class: portco-logo-lg
+    storylink: https://www.sequoiacap.com/companies/stripe/
+    delay: 500
   - link: /assets/tunein.svg
     class: portco-logo-sm
     storylink: https://www.sequoiacap.com/companies/tunein/
-    delay: 400
+    delay: 600
   - link: /assets/unity.svg
     class: portco-logo-lg
     storylink: https://www.sequoiacap.com/companies/unity-technologies/
-    delay: 500
+    delay: 700
 alumni:
   label: A lasting community
   headline: Sequoia Creative Lab alumni
