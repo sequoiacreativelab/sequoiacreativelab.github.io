@@ -8,9 +8,9 @@ position: Product Designer
 company: Zugata
 twitter: ohjphan
 email:
-linkedin:
+linkedin: in/jessicaphan/
 website: http://jessica.is/
-dribbble:
+dribbble: ohjessica
 github:
 medium:
 ---
