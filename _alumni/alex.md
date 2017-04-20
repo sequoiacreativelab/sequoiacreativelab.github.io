@@ -7,5 +7,5 @@ date: 2016-01-4
 position: Senior Product Designer
 company: Robinhood
 twitter: bond_alexandra
-website: alexandra-bond.com
+website: http://alexandra-bond.com
 ---
