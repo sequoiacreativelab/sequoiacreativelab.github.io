@@ -119,7 +119,7 @@ careers:
   copy:
   cta:
 join:
-  headline: assets/join.png
+  headline: assets/join.svg
   copy: "We're always looking for talented and passionate people to join us. If you’re an experienced designer looking to work on fast-paced, hands-on projects with Sequoia and our portfolio, we'd love to hear from you."
   link: https://docs.google.com/forms/d/e/1FAIpQLSfBmbvjNJ_vIwI4j8r0klvYFh771Wks-XSm0vv7exYJLmlpKw/viewform?c=0&w=1
   cta: Apply now
