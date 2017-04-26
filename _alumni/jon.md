@@ -8,10 +8,11 @@ class: Visiting designer
 company: Airbnb
 job_title: Design Technologist
 twitter: jongold
-email:
-linkedin:
+email: 
+linkedin: 
 website: http://jon.gold/
-dribbble:
+dribbble: 
 github: jongold
-medium:
+medium: 
 ---
+
