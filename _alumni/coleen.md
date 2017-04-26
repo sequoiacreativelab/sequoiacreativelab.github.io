@@ -1,11 +1,12 @@
 ---
 title: Coleen Baik
+date: 2016-01-04 00:00:00 Z
+position: 0
 first_name: Coleen
 last_name: Baik
 class: Visiting designer
-date: 2016-01-4
-position: Designer and Advisor
 company: Independent
 twitter: colbay
 website: http://coleenbaik.com/
 ---
+

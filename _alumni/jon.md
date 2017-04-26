@@ -1,16 +1,17 @@
 ---
 title: Jon Gold
+date: 2016-01-04 00:00:00 Z
+position: 0
 first_name: Jon
 last_name: Gold
 class: Visiting designer
-date: 2016-01-4
-position: Design Technologist
 company: Airbnb
 twitter: jongold
-email:
-linkedin:
+email: 
+linkedin: 
 website: http://jon.gold/
-dribbble:
+dribbble: 
 github: jongold
-medium:
+medium: 
 ---
+

@@ -1,16 +1,17 @@
 ---
 title: Jen Wibowo
+date: 2016-01-04 00:00:00 Z
+position: 0
 first_name: Jen
 last_name: Wibowo
 class: Design fellow
-date: 2016-01-4
-position: Product Designer
 company: Pocket
 twitter: jenniferwibowo
-email:
-linkedin:
+email: 
+linkedin: 
 website: http://www.wiboworks.com/
-dribbble:
-github:
-medium:
+dribbble: 
+github: 
+medium: 
 ---
+
