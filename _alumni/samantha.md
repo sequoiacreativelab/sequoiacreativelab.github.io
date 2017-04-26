@@ -6,12 +6,12 @@ first_name: Samantha
 last_name: Warren
 class: Visiting designer
 company: Adobe
+job_title: Experience Design Manager
 twitter: samanthatoy
-email: 
-linkedin: 
+email:
+linkedin:
 website: http://samanthatoy.com/
-dribbble: 
-github: 
-medium: 
+dribbble:
+github:
+medium:
 ---
-

@@ -6,12 +6,12 @@ first_name: Kat
 last_name: Fukui
 class: Design fellow
 company: GitHub
+job_title: Product Designer
 twitter: katfukui
-email: 
-linkedin: 
+email:
+linkedin:
 website: http://katfukui.com/
-dribbble: 
+dribbble:
 github: katmeister
-medium: 
+medium:
 ---
-

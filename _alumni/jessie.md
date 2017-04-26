@@ -6,12 +6,12 @@ first_name: Jessie
 last_name: Ren
 class: Design fellow
 company: Apple
+job_title: Senior UX Designer
 twitter: backtofutura
-email: 
+email:
 linkedin: in/jessiejren
 website: http://jessieren.com
-dribbble: 
-github: 
-medium: 
+dribbble:
+github:
+medium:
 ---
-

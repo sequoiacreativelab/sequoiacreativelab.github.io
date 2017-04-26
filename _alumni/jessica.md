@@ -6,12 +6,12 @@ first_name: Jessica
 last_name: Phan
 class: Visiting designer
 company: Zugata
+job_title: Founding Designer
 twitter: ohjphan
-email: 
+email:
 linkedin: in/jessicaphan/
 website: http://jessica.is/
 dribbble: ohjessica
-github: 
-medium: 
+github:
+medium:
 ---
-

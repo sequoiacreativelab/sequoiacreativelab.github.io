@@ -6,12 +6,12 @@ first_name: Andreas
 last_name: Weiland
 class: Visiting designer
 company: Vivino
+job_title: Senior Product Designer
 twitter: aweiland
-email: 
-linkedin: 
+email:
+linkedin:
 website: http://www.beak.dk/
-dribbble: 
-github: 
-medium: 
+dribbble:
+github:
+medium:
 ---
-
