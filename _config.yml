@@ -28,8 +28,12 @@ collections:
     title: alumni
     output: true
     permalink: "/:title/"
-  visitors:
-    title: visitors
+  logos:
+    title: logos
+    output: true
+    permalink: "/:title/"
+  positions:
+    title: positions
     output: true
     permalink: "/:title/"
 defaults:
@@ -40,7 +44,12 @@ defaults:
     layout: default
 - scope:
     path: ''
-    type: visitors
+    type: logos
+  values:
+    layout: default
+- scope:
+    path: ''
+    type: positions
   values:
     layout: default
 

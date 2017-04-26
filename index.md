@@ -57,39 +57,6 @@ current:
 portfolio:
   label: More than just pixels
   headline: As Sequoia's design ambassadors, the Creative Lab collaborates across the portfolio on products, processes and design culture.
-  logos:
-  - link: /assets/doordash.svg
-    class: portco-logo-sm
-    storylink: https://www.sequoiacap.com/company-story/doordash-story/
-    delay: 0
-  - link: /assets/evernote.svg
-    class: portco-logo-md
-    storylink: https://www.sequoiacap.com/companies/evernote/
-    delay: 0
-  - link: /assets/github.svg
-    class: portco-logo-sm
-    storylink: https://www.sequoiacap.com/companies/github/
-    delay: 200
-  - link: /assets/percolate.svg
-    class: portco-logo-xs
-    storylink: https://www.sequoiacap.com/companies/percolate/
-    delay: 300
-  - link: /assets/plangrid.svg
-    class: portco-logo-sm
-    storylink: https://www.sequoiacap.com/companies/plangrid/
-    delay: 400
-  - link: /assets/stripe.svg
-    class: portco-logo-lg
-    storylink: https://www.sequoiacap.com/companies/stripe/
-    delay: 500
-  - link: /assets/tunein.svg
-    class: portco-logo-sm
-    storylink: https://www.sequoiacap.com/companies/tunein/
-    delay: 600
-  - link: /assets/unity.svg
-    class: portco-logo-lg
-    storylink: https://www.sequoiacap.com/companies/unity-technologies/
-    delay: 700
 alumni:
   label: A lasting network
   headline: Sequoia Creative Lab alumni
@@ -97,25 +64,6 @@ alumni:
 careers:
   label: Growing our community
   headline: With over 75 open design positions across the Sequoia portfolio at any given moment, we also love to connect designers to their dream jobs.
-  positions:
-  - link: https://www.sequoiacap.com/jobs/534669/
-    title: Senior Product Designer
-    company: Strava
-  - link: https://www.sequoiacap.com/jobs/509126/
-    title: Product Designer
-    company: Dropbox
-  - link: https://www.sequoiacap.com/jobs/643089/
-    title: User Experience Architect
-    company: Eventbrite
-  - link: https://www.sequoiacap.com/jobs/671257/
-    title: Senior Product Designer
-    company: Instacart
-  - link: https://www.sequoiacap.com/jobs/480571/
-    title: Product Designer
-    company: Thumbtack
-  - link: https://www.sequoiacap.com/jobs/?filters=38
-    title: View all positions
-    company:
   copy:
   cta:
 join:
