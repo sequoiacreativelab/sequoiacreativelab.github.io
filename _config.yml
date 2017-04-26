@@ -31,8 +31,12 @@ defaults:
     last_name:
     class:
     company:
-    position:
-    
+    job_title:
+    dribbble:
+    linkedin:
+    email:
+    website:
+    github:
 - scope:
     path: ''
     type: logos
@@ -49,15 +53,16 @@ defaults:
     order:
 
 # Build settings
+
 markdown: kramdown
 theme: minima
 permalink: pretty
 gems:
-  - jekyll-feed
+- jekyll-feed
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - package.json
-  - npm-debug.log
-  - gulpfile.js
+- Gemfile
+- Gemfile.lock
+- node_modules
+- package.json
+- npm-debug.log
+- gulpfile.js
