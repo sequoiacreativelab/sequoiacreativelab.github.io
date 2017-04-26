@@ -1,16 +1,17 @@
 ---
 title: Kat Fukui
+date: 2016-01-04 00:00:00 Z
+position: 0
 first_name: Kat
 last_name: Fukui
 class: Design fellow
-date: 2016-01-4
-position: Product Designer
 company: GitHub
 twitter: katfukui
-email:
-linkedin:
+email: 
+linkedin: 
 website: http://katfukui.com/
-dribbble:
+dribbble: 
 github: katmeister
-medium:
+medium: 
 ---
+

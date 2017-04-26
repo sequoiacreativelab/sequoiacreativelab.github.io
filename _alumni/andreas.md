@@ -1,16 +1,17 @@
 ---
 title: Andreas Weiland
+date: 2016-01-04 00:00:00 Z
+position: 0
 first_name: Andreas
 last_name: Weiland
 class: Visiting designer
-date: 2016-01-4
-position: Senior Product Designer
 company: Vivino
 twitter: aweiland
-email:
-linkedin:
+email: 
+linkedin: 
 website: http://www.beak.dk/
-dribbble:
-github:
-medium:
+dribbble: 
+github: 
+medium: 
 ---
+
