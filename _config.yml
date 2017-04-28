@@ -12,12 +12,12 @@ collections:
     title: alumni
     output: true
     permalink: "/:title/"
-  logos:
-    title: logos
-    output: true
-    permalink: "/:title/"
   jobs:
     title: jobs
+    output: true
+    permalink: "/:title/"
+  logos:
+    title: logos
     output: true
     permalink: "/:title/"
 defaults:
@@ -26,38 +26,36 @@ defaults:
     type: alumni
   values:
     layout: default
-    title:
-    first_name:
-    last_name:
-    class:
-    company:
-    job_title:
-    dribbble:
-    linkedin:
-    email:
-    website:
-    github:
+    title: 
+    first_name: 
+    last_name: 
+    class: 
+    company: 
+    job_title: 
+    dribbble: 
+    linkedin: 
+    email: 
+    website: 
+    github: 
 - scope:
     path: ''
     type: logos
   values:
     layout: default
-    title:
-    link:
-    class:
-    storylink:
-    delay:
+    title: 
+    link: 
+    class: 
+    storylink: 
+    delay: 
 - scope:
     path: ''
     type: jobs
   values:
     layout: default
-    job_title:
-    link:
-    company:
-    order:
-
-# Build settings
+    job_title: 
+    link: 
+    company: 
+    order: 
 markdown: kramdown
 theme: minima
 permalink: pretty
