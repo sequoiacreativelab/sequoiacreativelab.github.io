@@ -16,8 +16,8 @@ collections:
     title: logos
     output: true
     permalink: "/:title/"
-  positions:
-    title: positions
+  jobs:
+    title: jobs
     output: true
     permalink: "/:title/"
 defaults:
@@ -42,12 +42,17 @@ defaults:
     type: logos
   values:
     layout: default
+    title:
+    link:
+    class:
+    storylink:
+    delay:
 - scope:
     path: ''
-    type: positions
+    type: jobs
   values:
     layout: default
-    title:
+    job_title:
     link:
     company:
     order:

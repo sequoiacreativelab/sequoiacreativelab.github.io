@@ -159,7 +159,7 @@
       <h2 class="noe f2-m f3 lh-deck tc fw6 pv5-m pv4-sm pv3 measure center">{{page.careers.headline}}</h2>
     </div>
     <div data-aos="fade-up" data-aos-anchor-placement="top-center" class="measure-extra-wide center pt3">
-      {% assign sorted = (site.positions | sort: 'order') %}
+      {% assign sorted = (site.jobs | sort: 'order') %}
       {% for item in sorted %}
         {% if forloop.last == true %}
           <a href="{{item.link}}" class="flex job-link justify-between pv4 mh3">
