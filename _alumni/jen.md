@@ -8,10 +8,11 @@ class: Design fellow
 company: Pocket
 job_title: Product Designer
 twitter: jenniferwibowo
-email:
-linkedin:
+email: 
+linkedin: 
 website: http://www.wiboworks.com/
-dribbble:
-github:
-medium:
+dribbble: 
+github: 
+medium: 
 ---
+

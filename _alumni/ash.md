@@ -8,10 +8,11 @@ class: Visiting designer
 company: Adobe
 job_title: Senior Experience Designer
 twitter: ashsmash
-email:
-linkedin:
+email: 
+linkedin: 
 website: http://ashsmash.com/
-dribbble:
-github:
-medium:
+dribbble: 
+github: 
+medium: 
 ---
+

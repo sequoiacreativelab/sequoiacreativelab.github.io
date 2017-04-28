@@ -8,10 +8,11 @@ class: Visiting designer
 company: Independent
 job_title: Illustrator
 twitter: byalicelee
-email:
-linkedin:
+email: 
+linkedin: 
 website: http://byalicelee.com/
 dribbble: byalicelee
-github:
-medium:
+github: 
+medium: 
 ---
+

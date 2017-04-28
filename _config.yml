@@ -1,5 +1,5 @@
 ---
-title: Your awesome title
+title: Sequoia Creative Lab
 timezone: UTC
 collections:
   posts:
@@ -58,7 +58,6 @@ defaults:
     order:
 
 # Build settings
-
 markdown: kramdown
 theme: minima
 permalink: pretty
