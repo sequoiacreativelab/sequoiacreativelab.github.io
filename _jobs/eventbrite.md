@@ -1,7 +1,8 @@
 ---
-title: User Experience Architect
-link: https://www.sequoiacap.com/jobs/643089/
-company: Eventbrite
+title: Senior Visual Designer
+job_title: Senior Visual Designer
+link: https://www.sequoiacap.com/jobs/671014/
+company: Medallia
 order: 3
 ---
 
