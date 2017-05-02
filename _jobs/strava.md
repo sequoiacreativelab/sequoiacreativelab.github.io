@@ -1,7 +1,8 @@
 ---
-title: Senior Product Designer
-link: https://www.sequoiacap.com/jobs/534669/
-company: Strava
+title: Design Lead
+job_title: Design Lead
+link: https://www.sequoiacap.com/jobs/666567/
+company: Plangrid
 order: 1
 ---
 
