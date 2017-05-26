@@ -88,3 +88,16 @@ While Jekyll is running, open a new tab in your terminal and run gulp.
 ```$ gulp```
 
 This should open a new browser window running at `localhost:3000`.
+
+## Working with the site
+
+### Basic file structure
+All the content for the site lives in the `index.md` file.
+
+The html structure for site lives in the `homepage.html` file in the layouts folder.
+
+The site includes three collections: alumni, jobs, and logos. Collections make it easy to add or remove content through Siteleaf. To manually modify any of those collections, add/remove/modify the appropriate files in the `_{collection}` folder.
+
+To modify the styles, open the `sass` folder in the `_static` folder of the site. The styles are organized into folders that contain partials: `base`, `components`, `utilities` and `variables`. Each partial is then imported into the `styles.scss` file, which gets converted to CSS by gulp when the site is compiled.
+
+The head tags, footer scripts, and icons can all be found in the `_includes` folder. Icons are served as sprites from a single svg file that gets included at the top of the document.
