@@ -36,19 +36,16 @@ process:
     tell their story and build healthy design orgs with the structures, processes
     and measurement tools they need to thrive.
   - Along the way, high-performing designers join the Sequoia Creative Lab for fast-paced,
-    one-on-one, hands-on projects as Design Fellows and Visiting Designers. Design
-    Fellows typically have 1–5 years experience and an urgent desire to sublimate
-    their design career with a big jump forward while Visiting Designers bring their
-    expertise on specific topics for short-term projects.
+    one-on-one, hands-on projects as Visiting Designers.
 current:
   label: The program
-  headline: Meet the fellows
+  headline: Meet the designers
   deck: Design Fellows join the Sequoia Creative Lab for 3 – 12 months to lead product
     design projects for companies within the Sequoia portfolio. After the fellowship,
     they aim to find a full-time home on one of the portfolio's design teams.
   fellows:
   - name: Sue Kim
-    position: Design fellow '17
+    position: Product designer
     intro: Sue developed her passion in art and design at Rhode Island School of Design,
       where she studied industrial design. Inheriting industrial design principles,
       Sue focuses on design that reflect on simplicity, honesty, and detail orientation.
@@ -61,7 +58,7 @@ current:
     linkedin: designkim
     column_padding: pr5-m
   - name: Jules Forrest
-    position: Design fellow '17
+    position: Product designer
     intro: Jules is a product designer who first became interested in design and typography
       while working on her college's newspaper in upstate New York. A stickler for
       details, she likes building design systems that prioritize consistency over
@@ -88,8 +85,8 @@ careers:
   label: Growing our community
   headline: With over 75 open design positions across the Sequoia portfolio at any
     given moment, we also love to connect designers to their dream jobs.
-  copy: 
-  cta: 
+  copy:
+  cta:
 join:
   headline: assets/join.svg
   copy: We're always looking for talented and passionate people to join us. If you’re
@@ -98,4 +95,3 @@ join:
   link: https://docs.google.com/forms/d/e/1FAIpQLSfBmbvjNJ_vIwI4j8r0klvYFh771Wks-XSm0vv7exYJLmlpKw/viewform?c=0&w=1
   cta: Apply now
 ---
-
