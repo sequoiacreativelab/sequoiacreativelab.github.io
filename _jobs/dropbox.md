@@ -1,5 +1,5 @@
 ---
-title: Product Designer
+title: Evernote
 job_title: Product Designer
 link: https://www.sequoiacap.com/jobs/659705/
 company: Evernote

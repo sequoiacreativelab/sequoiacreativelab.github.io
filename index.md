@@ -85,8 +85,8 @@ careers:
   label: Growing our community
   headline: With over 75 open design positions across the Sequoia portfolio at any
     given moment, we also love to connect designers to their dream jobs.
-  copy:
-  cta:
+  copy: 
+  cta: 
 join:
   headline: assets/join.svg
   copy: We're always looking for talented and passionate people to join us. If you’re
@@ -95,3 +95,4 @@ join:
   link: https://docs.google.com/forms/d/e/1FAIpQLSfBmbvjNJ_vIwI4j8r0klvYFh771Wks-XSm0vv7exYJLmlpKw/viewform?c=0&w=1
   cta: Apply now
 ---
+

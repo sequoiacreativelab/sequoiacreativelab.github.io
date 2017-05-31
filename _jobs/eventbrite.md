@@ -1,5 +1,5 @@
 ---
-title: Senior Visual Designer
+title: Medallia
 job_title: Senior Visual Designer
 link: https://www.sequoiacap.com/jobs/671014/
 company: Medallia
