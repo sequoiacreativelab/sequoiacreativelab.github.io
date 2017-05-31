@@ -20,9 +20,9 @@ Use Homebrew to install [rbenv](rbenv.org), a Ruby version management tool that 
 ```$ brew install rbenv```
 
 ### Install latest stable version of Ruby
-Right now, that's `2.4.0`.
+Right now, that's `2.3.0`.
 
-```$ rbenv install 2.4.0```
+```$ rbenv install 2.3.0```
 
 ### Update bash profile
 You'll need to update your bash profile to save changes that you make with rbenv.
