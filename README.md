@@ -34,7 +34,7 @@ You'll need to update your bash profile to save changes that you make with rbenv
 ### Set latest version of Ruby globally
 This will tell your machine to use the Ruby we just installed in every directory.
 
-```$ rbenv global 2.4.0```
+```$ rbenv global 2.3.0```
 
 ### Check that Ruby changed
 ```$ which ruby```
