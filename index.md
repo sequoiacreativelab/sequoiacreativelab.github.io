@@ -76,7 +76,7 @@ current:
     column_padding: pl5-m pt5 pt0-m
 portfolio:
   label: More than just pixels
-  headline: As Sequoia's design ambassadors, the design Lab collaborates across the
+  headline: As Sequoia's design ambassadors, the Sequoia Design Lab collaborates across the
     portfolio on products, processes and design culture.
 alumni:
   label: A lasting network
