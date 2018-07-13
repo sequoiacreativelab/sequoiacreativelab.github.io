@@ -45,32 +45,23 @@ current:
     design projects for companies within the Sequoia portfolio. After the fellowship,
     they aim to find a full-time home on one of the portfolio's design teams.
   fellows:
-  - name: Sue Kim
-    position: Product designer
-    intro: Sue developed her passion in art and design at Rhode Island School of Design,
-      where she studied industrial design. Inheriting industrial design principles,
-      Sue focuses on design that reflect on simplicity, honesty, and detail orientation.
-      Her product design work has created impact both on and off-screen and she looks
-      forward to work on products that value both kinds of user experiences.
+  - name: Aine Zhou
+    position: Designer
+    intro: Aine designs products from an experiential standpoint. Her full design process focuses on data, concept, and designing with a POV. After Sequoia, she looks forward to joining a design team that encourages iterations and risk. Aine holds a BFA in Painting and Visual Communications from School of the Art Institute of Chicago and a MFA in Design and Technology from Parsons School of Design.
     cta: Get in touch
-    twitter: suemeetsoo
-    website: https://hkimdesign.com/
-    email: mailto:suekiming@gmail.com
-    linkedin: designkim
+    twitter: zhouaine
+    website: https://www.ainezhou.com/
+    email: mailto:aine.zhou@gmail.com
+    linkedin: ainezhou
     column_padding: pr5-m
-  - name: Jules Forrest
-    position: Product designer
-    intro: Jules is a product designer who first became interested in design and typography
-      while working on her college's newspaper in upstate New York. A stickler for
-      details, she likes building design systems that prioritize consistency over
-      pixel-perfection. After she leaves the lab, she's looking forward to joining
-      a team where she can continue to develop her front-end skillset.
+  - name: Mary Alice Arnstein
+    position: Design Intern
+    intro: Mary Alice is a designer finishing up her degree at Stanford University in Product Design, a discipline she found aligns perfectly with her intersection of interests in design, engineering, and tech. Constantly inspired by the people and places around her, Mary Alice focuses on integrating her passion for people into her work through full-process design and creating transformative products by practicing empathy. Her deep curiosity for exploring unusual connections and detailed oriented mindset combine to produce deliberate design.
     cta: Get in touch
-    twitter: julesforrest
-    website: http://freshpepper.co
-    email: mailto:julesforrest@gmail.com
-    linkedin: julesforrest
-    github: julesforrest
+    twitter: sequoia
+    website: https://www.maryalicearnstein.com/
+    email: mailto:maryalicearnstein@gmail.com
+    linkedin: maryalicearnstein
     column_padding: pl5-m pt5 pt0-m
 portfolio:
   label: More than just pixels
