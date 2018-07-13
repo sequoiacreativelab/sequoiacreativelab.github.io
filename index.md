@@ -27,7 +27,7 @@ intro:
     copy: To help the daring ~~build~~ design legendary companies.
 process:
   label: Here's how
-  headline: The Sequoia Creative Lab employs a full-process approach to solving design
+  headline: The Sequoia Design Lab employs a full-process approach to solving design
     problems.
   diagram: "/assets/process.svg"
   copy:
@@ -36,12 +36,12 @@ process:
     in the world and what’s happening in their product. We also help Sequoia companies
     tell their story and build healthy design orgs with the structures, processes
     and measurement tools they need to thrive.
-  - Along the way, high-performing designers join the Sequoia Creative Lab for fast-paced,
+  - Along the way, high-performing designers join the Sequoia Design Lab for fast-paced,
     one-on-one, hands-on projects as Visiting Designers.
 current:
   label: The program
   headline: Meet the designers
-  deck: Design Fellows join the Sequoia Creative Lab for 3 – 12 months to lead product
+  deck: Design Fellows join the Sequoia Design Lab for 3 – 12 months to lead product
     design projects for companies within the Sequoia portfolio. After the fellowship,
     they aim to find a full-time home on one of the portfolio's design teams.
   fellows:
@@ -74,11 +74,11 @@ current:
     column_padding: pl5-m pt5 pt0-m
 portfolio:
   label: More than just pixels
-  headline: As Sequoia's design ambassadors, the Creative Lab collaborates across
+  headline: As Sequoia's design ambassadors, the design Lab collaborates across
     the portfolio on products, processes and design culture.
 alumni:
   label: A lasting network
-  headline: Sequoia Creative Lab alumni
+  headline: Sequoia Design Lab alumni
   deck: When their time at the Lab comes to a close, we support each designer with
     a network of past Fellows and Visiting Designers, as well as access to the larger
     community of designers who work across the Sequoia portfolio.
