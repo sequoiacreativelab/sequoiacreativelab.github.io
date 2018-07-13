@@ -47,7 +47,12 @@ current:
   fellows:
   - name: Aine Zhou
     position: Designer
-    intro: Aine designs products from an experiential standpoint. Her full design process focuses on data, concept, and designing with a POV. After Sequoia, she looks forward to joining a design team that encourages iterations and risk. Aine holds a BFA in Painting and Visual Communications from School of the Art Institute of Chicago and a MFA in Design and Technology from Parsons School of Design.
+    intro: Aine designs products from an experiential standpoint. Her full design
+      process focuses on data, concept, and designing with a POV. After Sequoia, she
+      looks forward to joining a design team that encourages iterations and risk.
+      Aine holds a BFA in Painting and Visual Communications from School of the Art
+      Institute of Chicago and a MFA in Design and Technology from Parsons School
+      of Design.
     cta: Get in touch
     twitter: zhouaine
     website: https://www.ainezhou.com/
@@ -56,7 +61,13 @@ current:
     column_padding: pr5-m
   - name: Mary Alice Arnstein
     position: Design Intern
-    intro: Mary Alice is a designer finishing up her degree at Stanford University in Product Design, a discipline she found aligns perfectly with her intersection of interests in design, engineering, and tech. Constantly inspired by the people and places around her, Mary Alice focuses on integrating her passion for people into her work through full-process design and creating transformative products by practicing empathy. Her deep curiosity for exploring unusual connections and detailed oriented mindset combine to produce deliberate design.
+    intro: Mary Alice is a designer finishing up her degree at Stanford University
+      in Product Design, a discipline she found aligns perfectly with her intersection
+      of interests in design, engineering, and tech. Constantly inspired by the people
+      and places around her, Mary Alice focuses on integrating her passion for people
+      into her work through full-process design and creating transformative products
+      by practicing empathy. Her deep curiosity for exploring unusual connections
+      and detailed oriented mindset combine to produce deliberate design.
     cta: Get in touch
     twitter: sequoia
     website: https://www.maryalicearnstein.com/
