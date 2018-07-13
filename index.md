@@ -10,8 +10,7 @@ intro:
   details:
   - label: Who
     delay: 400
-    copy: "[James Buckhouse](https://twitter.com/buckhouse), [Sue Kim](http://linkedin.com/in/designkim),
-      & [Jules Forrest](https://twitter.com/julesforrest)"
+    copy: "[James Buckhouse](https://twitter.com/buckhouse), [Coleen Baik](https://www.coleenbaik.com/), [Josh Silverman](https://www.mynameisjoshsilverman.com/), [Aine Zhou](https://www.ainezhou.com/) & [Mary Alice Arnstein](https://www.maryalicearnstein.com/)"
   - label: What
     delay: 650
     copy: Design products & experiences
