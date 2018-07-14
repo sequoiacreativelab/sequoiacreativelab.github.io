@@ -27,7 +27,7 @@ intro:
     copy: To help the daring ~~build~~ design legendary companies.
 process:
   label: Here's how
-  headline: We diagnose with data and treat with design.
+  headline: We diagnose with data<br>and treat with design.
   diagram: "/assets/process.svg"
   copy:
   - When we help teams ship and iterate core features, we focus on the total experience
