@@ -18,7 +18,7 @@ intro:
     copy: Design products & experiences
   - label: Where
     delay: 900
-    copy: At [Sequoia](https://sequoiacap.com) & our portfolio companies
+    copy: At [Sequoia](https://sequoiacap.com0's portfolio companies
   - label: When
     delay: 1150
     copy: During pivotal company moments
@@ -27,8 +27,7 @@ intro:
     copy: To help the daring ~~build~~ design legendary companies.
 process:
   label: Here's how
-  headline: The Sequoia Design Lab employs a full-process approach to solving design
-    problems.
+  headline: We diagnose with data and treat with design.
   diagram: "/assets/process.svg"
   copy:
   - When we help teams ship and iterate core features, we focus on the total experience
