@@ -4,7 +4,7 @@ layout: homepage
 intro:
   logo: assets/logo-white.svg
   label: Welcome to the
-  scl_image: assets/scl.png
+  scl_image: assets/SDL.png
   date: Est. 2014
   location: Menlo Park, CA
   details:
