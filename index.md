@@ -18,7 +18,7 @@ intro:
     copy: Design products & experiences
   - label: Where
     delay: 900
-    copy: At [Sequoia](https://sequoiacap.com0's portfolio companies
+    copy: At [Sequoia](https://sequoiacap.com)'s portfolio companies
   - label: When
     delay: 1150
     copy: During pivotal company moments
