@@ -1,5 +1,5 @@
 
-
+---
 title: Welcome
 layout: homepage
 intro:
@@ -122,3 +122,4 @@ join:
     Sequoia and our portfolio, we'd love to hear from you.
   link: https://docs.google.com/forms/d/e/1FAIpQLSfBmbvjNJ_vIwI4j8r0klvYFh771Wks-XSm0vv7exYJLmlpKw/viewform?c=0&w=1
   cta: Apply now
+  ---
