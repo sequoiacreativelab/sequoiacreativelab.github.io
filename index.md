@@ -40,10 +40,35 @@ process:
 current:
   label: The program
   headline: Meet the designers
-  deck: Design Fellows join the Sequoia Design Lab for 3 – 12 months to lead product
-    design projects for companies within the Sequoia portfolio. After the fellowship,
-    they aim to find a full-time home on one of the portfolio's design teams.
+  deck: The designers who join the SDL arrive with different experiences, strengths and expertise. Some stay for years, others stay for only a few months and then leave to join Sequoia portfolio companies. 
   fellows:
+   - name: James Buckbhouse
+    position: Founder of the SDL
+    intro: As founder of the Sequoia Design Lab, James Buckhouse strives to help startups reach their full potential through exceptional product design.  He lectures frequently at Stanford’s d.school and the Graduate School of Business on story-driven design. Prior to Sequoia, he led black-ops products at Twitter as the Sr. Experience Architect. Before Twitter, he helped shoot the Shrek, Madagascar and Matrix trilogies. 
+    cta: Get in touch
+    twitter: buckhouse
+    website: https://jamesbuckhouse.com/
+    email: mailto:james@sequoiacap.com
+    linkedin: jamesbuckhouse
+    column_padding: pr5-m
+    - name: Coleen Baik
+    position: Designer
+    intro: I specialize in consumer product design and illustration. I've worked on a wide range of projects at startups like Twitter and Medium, but I've also engaged in traditionally non-tech spaces with activists like Gloria Steinem. I believe technology should serve empathy and connection. I love telling stories and this is mine!
+    cta: Get in touch
+    twitter: colbay
+    website: https://www.coleenbaik.com/
+    email: mailto:design@sequoiacap.com
+    linkedin: coleenbaik
+    column_padding: pr5-m
+      - name: Jopsh Silverman
+    position: Designer
+    intro: Josh is a designer, entrepreneur, educator, lifelong learner, community builder, advisor, and optimist. He loves partnering with early stage founders and helping them learn to speak the language of design – and equally loves complex problems at scale. For 20 years he ran a lean, holacratic model design business, transforming clients of all kinds. On the daily, he is driven by beautiful intersectionality, great pairings, trusting relationships, and long bike rides.
+    cta: Get in touch
+    twitter: jhsilverman
+    website: http://www.mynameisjoshsilverman.com/
+    email: mailto:design@sequoiacap.com
+    linkedin: mynameisjoshsilverman
+    column_padding: pr5-m
   - name: Aine Zhou
     position: Designer
     intro: Aine designs products from an experiential standpoint. Her full design
